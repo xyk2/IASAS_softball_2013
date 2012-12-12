@@ -1,0 +1,107 @@
+<IASASsoftball>
+	<teams>
+		<team_one>TAS</team_one>
+		<team_two>SAS</team_two>
+	</teams>
+	<inning>
+		<one>
+			<runs>-</runs>
+			<hits>-</hits>
+			<errors>0</errors>
+
+			<runs_two>-</runs_two>
+			<hits_two>-</hits_two>
+			<errors_two>0</errors_two>
+		</one>
+			
+		<two>
+			<runs>-</runs>
+			<hits>-</hits>
+			<errors>0</errors>
+
+			<runs_two>-</runs_two>
+			<hits_two>-</hits_two>
+			<errors_two>0</errors_two>
+		</two>
+		
+		<three>
+			<runs>-</runs>
+			<hits>-</hits>
+			<errors>0</errors>
+
+			<runs_two>-</runs_two>
+			<hits_two>-</hits_two>
+			<errors_two>0</errors_two>
+		</three>
+		
+		<four>
+			<runs>-</runs>
+			<hits>-</hits>
+			<errors>0</errors>
+
+			<runs_two>-</runs_two>
+			<hits_two>-</hits_two>
+			<errors_two>0</errors_two>
+		</four>
+		
+		<five>
+			<runs>-</runs>
+			<hits>-</hits>
+			<errors>0</errors>
+
+			<runs_two>-</runs_two>
+			<hits_two>-</hits_two>
+			<errors_two>0</errors_two>
+		</five>
+		
+		<six>
+			<runs>-</runs>
+			<hits>-</hits>
+			<errors>0</errors>
+
+			<runs_two>-</runs_two>
+			<hits_two>-</hits_two>
+			<errors_two>0</errors_two>
+		</six>
+		
+		<seven>
+			<runs>-</runs>
+			<hits>-</hits>
+			<errors>0</errors>		
+
+			<runs_two>-</runs_two>
+			<hits_two>-</hits_two>
+			<errors_two>0</errors_two>
+		</seven>
+	</inning>
+	
+	<cumulative>
+		<cumulative_runs>8</cumulative_runs>
+		<cumulative_hits>5</cumulative_hits>
+		<cumulative_errors>2</cumulative_errors>
+		<cumulative_pitches>0</cumulative_pitches>
+
+		<cumulative_runs_two>3</cumulative_runs_two>
+		<cumulative_hits_two>1</cumulative_hits_two>
+		<cumulative_errors_two>1</cumulative_errors_two>
+		<cumulative_pitches_two>0</cumulative_pitches_two>
+	
+	</cumulative>
+	
+	<realtime>
+		<balls>2</balls>
+		<strikes>2</strikes>
+		<outs>2</outs>
+		<inning_half>0</inning_half>
+		<inning_number>1</inning_number>
+		<batter>Hunter, P.</batter>
+		<batter_meta>#8 C</batter_meta>
+		<runner>Scutaro, M.</runner> <!-- first base -->
+		<runner>Posey, B.</runner> <!-- second base -->
+		<runner>null</runner> <!-- third base -->
+
+		<ondeck>null</ondeck>
+
+	</realtime>
+	
+</IASASsoftball>

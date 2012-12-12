@@ -1,0 +1,19 @@
+.pbp {
+	padding: 5px;
+	border-bottom: 1px solid #CCC;
+	font-family:Arial;
+}
+
+.pbp_text{
+	font-family: arial;
+	font-size: 13px;
+	padding-left: 21px;
+	line-height: 110%;
+}
+
+.pbp_number {
+	font-size: 18px;
+	float: left;
+	padding: 0 5px;
+	color: #555;
+}

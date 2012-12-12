@@ -1,0 +1,355 @@
+<IASASsoftball>
+	<inning number='one'>
+		<top>
+			<one_t>Pablo S. walks on six pitches from Clayton, K. Buster, P. to second.</one_t>
+			<one_t>Joaquin Arias hits a 3-run homer to left field. Buster Posey and Angel Pagan scores. One out.</one_t>
+			<one_t>Scott Rolen strikes out swinging.</one_t>
+			<one_t>Jay Bruce flies out to left fielder Xavier Nady.</one_t>
+			<one_t>Brandon Phillips pops out to first baseman Brandon Belt in foul territory.</one_t>
+			<one_t>Buster Posey hits a grand slam (2) to left field. Angel Pagan scores. Marco Scutaro scores. Pablo Sandoval scores.</one_t>
+			<one_t>null</one_t>
+			<one_t>null</one_t>
+			<one_t>null</one_t>
+			<one_t>null</one_t>
+			<one_t>null</one_t>
+			<one_t>null</one_t>
+			<one_t>null</one_t>
+			<one_t>null</one_t>
+		</top>
+		<bottom>
+			<one_b>Jay Bruce grounds out, first baseman Brandon Belt to pitcher Javier Lopez.</one_b>
+			<one_b>Scott Rolen singles on a soft fly ball to center fielder Angel Pagan.</one_b>
+			<one_b>Ryan Hanigan lines out to shortstop Brandon Crawford.</one_b>
+			<one_b>Todd Frazier singles on a line drive to center fielder Angel Pagan. Scott Rolen to 2nd.</one_b>
+			<one_b>Dioner Navarro lines out to center fielder Angel Pagan.</one_b>
+			<one_b>null</one_b>
+			<one_b>null</one_b>
+			<one_b>null</one_b>
+			<one_b>null</one_b>
+			<one_b>null</one_b>
+			<one_b>null</one_b>
+			<one_b>null</one_b>
+			<one_b>null</one_b>
+			<one_b>null</one_b>
+		</bottom>
+	</inning>
+	
+	<inning number='two'>
+		<top>
+			<two_t>Angel Pagan pops out to pitcher Sean Marshall.</two_t>
+			<two_t>Marco Scutaro grounds out, second baseman Brandon Phillips to first baseman Joey Votto.</two_t>
+			<two_t>Pablo Sandoval pops out to shortstop Zack Cozart.</two_t>
+			<two_t>null</two_t>
+			<two_t>null</two_t>
+			<two_t>null</two_t>
+			<two_t>null</two_t>
+			<two_t>null</two_t>
+			<two_t>null</two_t>
+			<two_t>null</two_t>
+			<two_t>null</two_t>
+			<two_t>null</two_t>
+			<two_t>null</two_t>
+			<two_t>null</two_t>
+		</top>
+		<bottom>
+			<two_b>null</two_b>
+			<two_b>null</two_b>
+			<two_b>null</two_b>
+			<two_b>null</two_b>
+			<two_b>null</two_b>
+			<two_b>null</two_b>
+			<two_b>null</two_b>
+			<two_b>null</two_b>
+			<two_b>null</two_b>
+			<two_b>null</two_b>
+			<two_b>null</two_b>
+			<two_b>null</two_b>
+			<two_b>null</two_b>
+			<two_b>null</two_b>
+		</bottom>
+	</inning>
+	
+	<inning number='three'>
+		<top>
+			<three_t>null</three_t>
+			<three_t>null</three_t>
+			<three_t>null</three_t>
+			<three_t>null</three_t>
+			<three_t>null</three_t>
+			<three_t>null</three_t>
+			<three_t>null</three_t>
+			<three_t>null</three_t>
+			<three_t>null</three_t>
+			<three_t>null</three_t>
+			<three_t>null</three_t>
+			<three_t>null</three_t>
+			<three_t>null</three_t>
+			<three_t>null</three_t>
+		</top>
+		<bottom>
+			<three_b>null</three_b>
+			<three_b>null</three_b>
+			<three_b>null</three_b>
+			<three_b>null</three_b>
+			<three_b>null</three_b>
+			<three_b>null</three_b>
+			<three_b>null</three_b>
+			<three_b>null</three_b>
+			<three_b>null</three_b>
+			<three_b>null</three_b>
+			<three_b>null</three_b>
+			<three_b>null</three_b>
+			<three_b>null</three_b>
+			<three_b>null</three_b>
+		</bottom>
+	</inning>
+	
+	<inning number='four'>
+		<top>
+			<four_t>null</four_t>
+			<four_t>null</four_t>
+			<four_t>null</four_t>
+			<four_t>null</four_t>
+			<four_t>null</four_t>
+			<four_t>null</four_t>
+			<four_t>null</four_t>
+			<four_t>null</four_t>
+			<four_t>null</four_t>
+			<four_t>null</four_t>
+			<four_t>null</four_t>
+			<four_t>null</four_t>
+			<four_t>null</four_t>
+			<four_t>null</four_t>
+		</top>
+		<bottom>
+			<four_b>null</four_b>
+			<four_b>null</four_b>
+			<four_b>null</four_b>
+			<four_b>null</four_b>
+			<four_b>null</four_b>
+			<four_b>null</four_b>
+			<four_b>null</four_b>
+			<four_b>null</four_b>
+			<four_b>null</four_b>
+			<four_b>null</four_b>
+			<four_b>null</four_b>
+			<four_b>null</four_b>
+			<four_b>null</four_b>
+			<four_b>null</four_b>
+		</bottom>
+	</inning>
+	
+	
+	<inning number='five'>
+		<top>
+			<five_t>null</five_t>
+			<five_t>null</five_t>
+			<five_t>null</five_t>
+			<five_t>null</five_t>
+			<five_t>null</five_t>
+			<five_t>null</five_t>
+			<five_t>null</five_t>
+			<five_t>null</five_t>
+			<five_t>null</five_t>
+			<five_t>null</five_t>
+			<five_t>null</five_t>
+			<five_t>null</five_t>
+			<five_t>null</five_t>
+			<five_t>null</five_t>
+		</top>
+		<bottom>
+			<five_b>null</five_b>
+			<five_b>null</five_b>
+			<five_b>null</five_b>
+			<five_b>null</five_b>
+			<five_b>null</five_b>
+			<five_b>null</five_b>
+			<five_b>null</five_b>
+			<five_b>null</five_b>
+			<five_b>null</five_b>
+			<five_b>null</five_b>
+			<five_b>null</five_b>
+			<five_b>null</five_b>
+			<five_b>null</five_b>
+			<five_b>null</five_b>
+		</bottom>
+	</inning>
+	
+	<inning number='six'>
+		<top>
+			<six_t>null</six_t>
+			<six_t>null</six_t>
+			<six_t>null</six_t>
+			<six_t>null</six_t>
+			<six_t>null</six_t>
+			<six_t>null</six_t>
+			<six_t>null</six_t>
+			<six_t>null</six_t>
+			<six_t>null</six_t>
+			<six_t>null</six_t>
+			<six_t>null</six_t>
+			<six_t>null</six_t>
+			<six_t>null</six_t>
+			<six_t>null</six_t>
+		</top>
+		<bottom>
+			<six_b>null</six_b>
+			<six_b>null</six_b>
+			<six_b>null</six_b>
+			<six_b>null</six_b>
+			<six_b>null</six_b>
+			<six_b>null</six_b>
+			<six_b>null</six_b>
+			<six_b>null</six_b>
+			<six_b>null</six_b>
+			<six_b>null</six_b>
+			<six_b>null</six_b>
+			<six_b>null</six_b>
+			<six_b>null</six_b>
+			<six_b>null</six_b>
+		</bottom>
+	</inning>
+	
+	<inning number='seven'>
+		<top>
+			<seven_t>null</seven_t>
+			<seven_t>null</seven_t>
+			<seven_t>null</seven_t>
+			<seven_t>null</seven_t>
+			<seven_t>null</seven_t>
+			<seven_t>null</seven_t>
+			<seven_t>null</seven_t>
+			<seven_t>null</seven_t>
+			<seven_t>null</seven_t>
+			<seven_t>null</seven_t>
+			<seven_t>null</seven_t>
+			<seven_t>null</seven_t>
+			<seven_t>null</seven_t>
+			<seven_t>null</seven_t>
+		</top>
+		<bottom>
+			<seven_b>null</seven_b>
+			<seven_b>null</seven_b>
+			<seven_b>null</seven_b>
+			<seven_b>null</seven_b>
+			<seven_b>null</seven_b>
+			<seven_b>null</seven_b>
+			<seven_b>null</seven_b>
+			<seven_b>null</seven_b>
+			<seven_b>null</seven_b>
+			<seven_b>null</seven_b>
+			<seven_b>null</seven_b>
+			<seven_b>null</seven_b>
+			<seven_b>null</seven_b>
+			<seven_b>null</seven_b>
+		</bottom>
+	</inning>
+	
+	
+	<inning number='eight'>
+		<top>
+			<eight_t>null</eight_t>
+			<eight_t>null</eight_t>
+			<eight_t>null</eight_t>
+			<eight_t>null</eight_t>
+			<eight_t>null</eight_t>
+			<eight_t>null</eight_t>
+			<eight_t>null</eight_t>
+			<eight_t>null</eight_t>
+			<eight_t>null</eight_t>
+			<eight_t>null</eight_t>
+			<eight_t>null</eight_t>
+			<eight_t>null</eight_t>
+			<eight_t>null</eight_t>
+			<eight_t>null</eight_t>
+		</top>
+		<bottom>
+			<eight_b>null</eight_b>
+			<eight_b>null</eight_b>
+			<eight_b>null</eight_b>
+			<eight_b>null</eight_b>
+			<eight_b>null</eight_b>
+			<eight_b>null</eight_b>
+			<eight_b>null</eight_b>
+			<eight_b>null</eight_b>
+			<eight_b>null</eight_b>
+			<eight_b>null</eight_b>
+			<eight_b>null</eight_b>
+			<eight_b>null</eight_b>
+			<eight_b>null</eight_b>
+			<eight_b>null</eight_b>
+		</bottom>
+	</inning>
+	
+	<inning number='nine'>
+		<top>
+			<nine_t>null</nine_t>
+			<nine_t>null</nine_t>
+			<nine_t>null</nine_t>
+			<nine_t>null</nine_t>
+			<nine_t>null</nine_t>
+			<nine_t>null</nine_t>
+			<nine_t>null</nine_t>
+			<nine_t>null</nine_t>
+			<nine_t>null</nine_t>
+			<nine_t>null</nine_t>
+			<nine_t>null</nine_t>
+			<nine_t>null</nine_t>
+			<nine_t>null</nine_t>
+			<nine_t>null</nine_t>
+		</top>
+		<bottom>
+			<nine_b>null</nine_b>
+			<nine_b>null</nine_b>
+			<nine_b>null</nine_b>
+			<nine_b>null</nine_b>
+			<nine_b>null</nine_b>
+			<nine_b>null</nine_b>
+			<nine_b>null</nine_b>
+			<nine_b>null</nine_b>
+			<nine_b>null</nine_b>
+			<nine_b>null</nine_b>
+			<nine_b>null</nine_b>
+			<nine_b>null</nine_b>
+			<nine_b>null</nine_b>
+			<nine_b>null</nine_b>
+		</bottom>
+	</inning>
+	
+	<inning number='ten'>
+		<top>
+			<ten_t>null</ten_t>
+			<ten_t>null</ten_t>
+			<ten_t>null</ten_t>
+			<ten_t>null</ten_t>
+			<ten_t>null</ten_t>
+			<ten_t>null</ten_t>
+			<ten_t>null</ten_t>
+			<ten_t>null</ten_t>
+			<ten_t>null</ten_t>
+			<ten_t>null</ten_t>
+			<ten_t>null</ten_t>
+			<ten_t>null</ten_t>
+			<ten_t>null</ten_t>
+			<ten_t>null</ten_t>
+		</top>
+		<bottom>
+			<ten_b>null</ten_b>
+			<ten_b>null</ten_b>
+			<ten_b>null</ten_b>
+			<ten_b>null</ten_b>
+			<ten_b>null</ten_b>
+			<ten_b>null</ten_b>
+			<ten_b>null</ten_b>
+			<ten_b>null</ten_b>
+			<ten_b>null</ten_b>
+			<ten_b>null</ten_b>
+			<ten_b>null</ten_b>
+			<ten_b>null</ten_b>
+			<ten_b>null</ten_b>
+			<ten_b>null</ten_b>
+		</bottom>
+	</inning>
+	
+	
+</IASASsoftball>

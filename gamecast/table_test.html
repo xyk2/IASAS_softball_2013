@@ -1,0 +1,171 @@
+<!DOCTYPE HTML>
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"><head>
+	<title>xyk2sandbox</title>
+	<meta http-equiv="content-type" content="text/html;charset=UTF-8">
+	
+	<script src="js/jquery-1.3.2.min.js"></script>
+	<script src="js/jquery.qtip-1.0.0-rc3.min.js"></script> 
+	<script src="js/loadxmldoc.js"></script>
+
+  	<link rel="stylesheet" type="text/css" href="style_home.css" media="all">
+   <!-- <script type="text/javascript" src="js/cssrefresh.js"></script> -->
+
+</head><link rel="stylesheet" type="text/css" href="data:text/css,">
+
+<body>
+	<h1 style="margin:10px;margin-bottom:30px;">IASAS softball sandbox</h1>
+	<div style="height:86px">
+		<table id="boxscore" class="boxscore" border="0" cellspacing="0">
+			<tbody><tr style="font-weight:bold;">
+			<th></th>
+						<th style="
+    width: auto;
+    padding: 0px;
+"></th>
+
+			<th>1</th>
+			<th>2</th>
+			<th>3</th>
+			<th>4</th>
+			<th>5</th>
+			<th>6</th>
+			<th>7</th>
+			<th style="	padding-left:25px;padding-right:5px;width: 0px;">R</th>
+			<th style="	padding-left:5px;padding-right:5px;width: 0px;">H</th>
+			<th style="	padding-left:5px;padding-right:20px;width: 0px;">E</th>
+			</tr>
+			
+			<tr>
+			<th style="
+    padding-right: 5px;
+"><img src="img/school_TAS.png" width="30px" height="30px" style="
+"></th>
+						<th style="
+    width: auto;
+    padding: 0px;
+    text-align: left;
+    padding-right: 5px;
+"><p style="
+    font-weight: bold;
+    font-size: 14px;
+    text-align: right;
+"> TAS</p><p style="
+    font-size: 12px;
+    text-align: right;
+">0-0</p></th>
+
+			<th>0</th>
+			<th>0</th>
+			<th>0</th>
+			<th>0</th>
+			<th>0</th>
+			<th>0</th>
+			<th>0</th>
+			<th style="width: 0px;padding-left:25px;padding-right:5px;color:#2C4D83;font-weight:bold;">0</th>
+			<th style="	width: 0px;padding-left:5px;padding-right:5px;">0</th>
+			<th style="	width: 0px;padding-left:5px;padding-right:20px;">0</th>
+			</tr>
+			
+			<tr>
+			<th style="
+    padding-right: 5px;
+"><img src="img/school_SAS.png" width="30px" height="30px" style="
+"></th>
+						<th style="
+    width: auto;
+    padding: 0px;
+    text-align: left;
+    padding-right: 5px;
+"><p style="
+    font-weight: bold;
+    font-size: 14px;
+    text-align: right;
+">SAS</p><p style="
+    font-size: 12px;
+    text-align: right;
+">0-0</p></th>
+
+			<th>0</th>
+			<th>0</th>
+			<th>0</th>
+			<th>0</th>
+			<th>0</th>
+			<th>0</th>
+			<th>0</th>
+			<th style="	width: 0px;padding-left:25px;padding-right:5px;color:#2C4D83;font-weight:bold;">0</th>
+			<th style="	width: 0px;padding-left:5px;padding-right:5px;">0</th>
+			<th style="	width: 0px;padding-left:5px;padding-right:20px;">0</th>
+			</tr>
+		</tbody></table>
+		
+		
+
+		<div style="padding-top:15px;-webkit-touch-callout: none;-webkit-user-select: none;-moz-user-select: none;">
+			<table class="bso" border="0" cellspacing="0">
+			<tbody><tr><th>B</th></tr>
+			<tr><th>S</th></tr>
+			<tr><th>O</th></tr>
+			</tbody></table>
+
+			<div style="width:auto;float:left">
+				<img id="balls" class="balls" src="img/blank.png" width="0" height="0">
+				<br>
+				<img id="strikes" class="strikes" src="img/blank.png" width="0" height="0">
+				<br>
+				<img id="outs" class="outs" src="img/blank.png" width="0" height="0">
+			</div>
+		</div>
+		
+		<div style="margin-left:10px;float:left;">
+			<img src="img/blank.png" id="bases" class="bases" usemap="#basesmap">
+			<map name="basesmap">
+				<area shape="poly" coords="0,22,10,12,11,12,21,22,11,32,10,32" alt="Arias, J." id="third" data-taken="0" class="">
+				<area shape="poly" coords="12,10,22,0,23,0,33,10,23,20,22,20" alt="Posey, B." id="second" data-taken="0" class="">
+				<area shape="poly" coords="24,22,34,12,35,12,45,22,35,32,34,32" alt="Casilla, S." id="first" data-taken="0" class="">
+
+			</map>
+			<div>
+				<canvas id="innings" width="50" height="50" style="margin-left: 12px; margin-top: 8px;border:0px solid #d3d3d3;">
+				Your browser does not support the HTML5 canvas tag. Upgrade to Chrome, Safari, or Firefox to watch IASAS softball live.</canvas>
+			</div>
+		</div>
+	</div>
+	
+	<script type="text/javascript"> <!-- tooltips -->
+// Create the tooltips only when document ready
+$(document).ready(function()
+{
+   // Use the each() method to gain access to each elements attributes
+   $('area').each(function()
+   {
+      $(this).qtip(
+      {
+         content: {text:$(this).attr('alt')}, // Use the ALT attribute of the area map
+         style: {
+			fontFamily: 'Arial',
+			background: '#F06E65',
+			color: '#FEFEFE',
+            name: 'dark', // Give it the preset dark style
+            border: { width: 0, radius: 0 },
+            tip: { corner: 'bottomMiddle', color: '#F06E65'}, // Apply a tip at the default tooltip corner
+			textAlign: 'center'
+         },
+		 
+	     position: {
+		  corner: {
+			target: 'topMiddle',
+			tooltip: 'bottomMiddle' 
+		  }
+		}
+      });
+   });
+  })
+</script>
+
+	
+	<!-- <button onclick="update_inning(0,1);">DEBUG</button> -->
+
+
+
+</body></html>

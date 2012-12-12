@@ -1,0 +1,93 @@
+.date {
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: bold;
+	color: #770000;
+	padding-left:5px;
+}
+
+.boys {
+	width:419px;
+	border-right:1px solid #A7A6A6;
+	float:left;
+	padding-right:20px;
+}
+
+.girls {
+	width:420px;
+	float:left;
+	margin-left: 20px;
+}
+
+
+.table {
+	margin-left: auto;
+	margin-right: auto;
+	font-family: Arial;
+	margin-top:10px;
+}
+
+.position {
+	text-align: right;
+	width: auto;
+	font-size: 12px;
+	padding-bottom:4px;
+}
+
+.number {
+	text-align:right;
+	width:auto;
+	padding-left: 8px;
+	font-size: 12px;
+	padding-bottom:4px;
+}
+
+.name {
+	padding-left:8px;
+	padding-bottom:4px;
+	font-size: 14px;
+}
+
+.coaches {
+	font-family: Arial;
+	font-size: 12px;
+	text-align: center;
+	margin-top: 10px;
+}
+
+.school_title {
+	font-family: leagueGothicRegular;
+	font-size: 30px;
+	color: #444;
+	padding-top: 13px;
+	padding-left: 5px;
+	float: left;
+}
+
+
+.tab_sprite {
+	float: left;
+	height: 22px;
+	width: 22px;
+	margin-right: 2px;
+}
+
+.team_tab_sprite {
+	float: left;
+	height: 50px;
+	width: 50px;
+	margin-right: 2px;
+	vertical-align: text-bottom;
+}
+
+
+#lean_overlay {
+    position: fixed;
+    z-index:100;
+    top: 0px;
+    left: 0px;
+    height:100%;
+    width:100%;
+    background: #000;
+    display: none;
+}

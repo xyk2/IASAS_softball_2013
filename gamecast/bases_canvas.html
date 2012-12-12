@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<canvas id="myCanvas" width="300" height="150" style="border:1px solid #d3d3d3;">
+Your browser does not support the HTML5 canvas tag.</canvas>
+<p id='print'>Hello</p>
+<map name="basesmap">
+				<area shape="poly" coords="0,22,10,12,11,12,21,22,11,32,10,32" alt="null" id="third" data-taken="0" class="">
+				<area shape="poly" coords="12,10,22,0,23,0,33,10,23,20,22,20" alt="Posey, B." id="second" data-taken="1" class="">
+				<area shape="poly" coords="24,22,34,12,35,12,45,22,35,32,34,32" alt="Sandoval, P." id="first" data-taken="1" class="">
+
+			</map>
+
+<script>
+function bases(base_one, base_two, base_three, scale) {
+var c=document.getElementById("myCanvas");
+var ctx=c.getContext("2d");
+myCanvas.height = scale*32;
+myCanvas.width = scale*44;
+ctx.scale(scale,scale);
+
+ctx.fillStyle='#e2e2e2';
+ctx.strokeStyle='#e2e2e2';
+ctx.beginPath();
+ctx.lineTo(0,22);
+ctx.lineTo(10,12);
+ctx.lineTo(20,22);
+ctx.lineTo(10,32);
+ctx.closePath();
+ctx.stroke();
+ctx.fill();
+
+ctx.beginPath();
+ctx.lineTo(12,10);
+ctx.lineTo(22,0);
+ctx.lineTo(32,10);
+ctx.lineTo(22,20);
+ctx.closePath();
+ctx.stroke();
+ctx.fill();
+
+ctx.beginPath();
+ctx.lineTo(24,22);
+ctx.lineTo(34,12);
+ctx.lineTo(44,22);
+ctx.lineTo(34,32);
+ctx.closePath();
+ctx.stroke();
+ctx.fill();
+
+var1 = 0*scale+','+22*scale+','+10*scale+','+12*scale  +','+20*scale+','+22*scale+','+10*scale +','+32*scale;
+
+document.getElementById('third').coords = 'var1';
+document.getElementById('print').innerHTML = var1;
+
+
+}
+
+bases(0,0,0, 1);
+</script> 
+
+</body>
+</html>

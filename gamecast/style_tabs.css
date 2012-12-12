@@ -1,0 +1,60 @@
+        .tabs {
+            height: 300px;
+            overflow: hide;
+            position: relative;
+            z-index: 1;
+            display: block;
+			width:400px;
+			float:left;
+        }
+        .tabs section {
+            float: left;
+            z-index: 1;
+        }
+        .tabs section h3 {
+            margin: 0 1px 0 0;
+            background: #d9d9d9;
+            padding: 3px 10px;
+            font: bold 12px Arial;
+            -moz-border-radius: 5px 5px 0 0;
+            cursor: hand;
+            cursor: pointer;
+        }
+
+        .tabs section.current h3 { background: #eee; cursor: default; }
+
+        .tabs section div {
+            position: absolute;
+            left: 0;
+            z-index: 2;
+            width: 100%;
+            height: 100%;
+            background: #eee;
+            display: none;
+            padding: 0 10px;
+            font: 12px Arial;
+        }
+
+.tabs section.current div {
+	display: block;
+}
+		
+.lineup {
+	border-style:solid;
+	/* border-width:1px; */
+	float:left;
+}
+
+.lineup tr {
+	border-style:solid;
+	/* border-width:1px; */
+}
+
+.lineup td{
+	border-style:solid;
+	/* border-width:1px; */
+	width: auto;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	font-size:14px;
+}

@@ -1,0 +1,104 @@
+<!DOCTYPE HTML>
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"> 
+<head>
+	<title>xyk2XML</title>
+	<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+	
+	<script type="text/javascript" src="js/jquery-1.3.2.min.js"></script>
+	<script type="text/javascript" src="js/jquery.qtip-1.0.0-rc3.min.js"></script> 
+    <!-- <script type="text/javascript" src="js/cssrefresh.js"></script> -->
+  	<link rel="stylesheet" type="text/css" href="style_home.css" media="all"/>
+	
+	<script type="text/javascript" src="loadxmldoc.js"></script>
+
+		<script type="text/javascript">
+			function get_runs() {
+					var xml_url = 'iasas_softball.xml'+'?'+Math.random()
+					xmlDoc=loadXMLDoc(xml_url);
+					x = xmlDoc.getElementsByTagName("runs");
+					outs = xmlDoc.getElementsByTagName("outs");
+					for(i = 0;i<x.length;i++) {
+					document.getElementById('boxscore').rows[1].cells[i+1].innerHTML = x[i].childNodes[0].nodeValue;
+					}
+					switch(outs[0].childNodes[0].nodeValue) {
+						case '0':
+							document.getElementById('strikes').style.background = "url(img/strikes_sprite.png) 0px -0px";
+							break;
+						case '1':
+							document.getElementById('strikes').style.background = "url(img/strikes_sprite.png) 0px -15px";
+							break;
+						case '2':
+							document.getElementById('strikes').style.background = "url(img/strikes_sprite.png) 0px -30px";	
+							break;
+						case '3':
+							document.getElementById('strikes').style.background = "url(img/strikes_sprite.png) 0px -45px";
+							break;
+					}
+			}
+		</script>
+
+</head>
+
+<body>
+	<h1 style='margin:10px;margin-bottom:30px;'>IASAS softball XML sandbox</h1>
+<table id='boxscore' class="boxscore" border="0" cellspacing="0">
+			<tr style="font-weight:bold;">
+			<th></th>
+			<th>1</th>
+			<th>2</th>
+			<th>3</th>
+			<th>4</th>
+			<th>5</th>
+			<th>6</th>
+			<th>7</th>
+			<th style="	padding-left:25px;padding-right:5px;width: 0px;">R</th>
+			<th style="	padding-left:5px;padding-right:5px;width: 0px;">H</th>
+			<th style="	padding-left:5px;padding-right:20px;width: 0px;">E</th>
+			</tr>
+			
+			<tr>
+			<th><img src="img/school_TAS.png" width='30px' height='30px'></th>
+			<th>3</th>
+			<th>0</th>
+			<th>2</th>
+			<th>5</th>
+			<th>0</th>
+			<th>4</th>
+			<th>0</th>
+
+			<th style="width: 0px;padding-left:25px;padding-right:5px;color:#2C4D83;font-weight:bold;">16</th>
+			<th style="	width: 0px;padding-left:5px;padding-right:5px;">18</th>
+			<th style="	width: 0px;padding-left:5px;padding-right:20px;">3</th>
+			</tr>
+
+			<tr>
+			<th><img src="img/school_SAS.png" width='30px' height='30px'></th>
+			<th>3</th>
+			<th>0</th>
+			<th>2</th>
+			<th>5</th>
+			<th>0</th>
+			<th>4</th>
+			<th>0</th>
+			<th style="	width: 0px;padding-left:25px;padding-right:5px;color:#2C4D83;font-weight:bold;">14</th>
+			<th style="	width: 0px;padding-left:5px;padding-right:5px;">21</th>
+			<th style="	width: 0px;padding-left:5px;padding-right:20px;">1</th>
+			</tr>
+		</table>
+						<img id='strikes' class="strikes" src="img/blank.png" width="0" height="0" />
+
+		
+		<script type="text/javascript">
+			document.getElementById('boxscore').rows[1].cells[2].innerHTML = 10;
+			setInterval("get_runs()", 5000);
+			
+			
+		</script>
+
+		
+
+	
+</body>
+
+</html>

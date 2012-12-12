@@ -1,0 +1,29 @@
+.column_data_one {
+    width: 100%;
+    border: 1px solid #888;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+	border-top: 0;
+	background-color: rgba(0, 0, 0, 0.04);
+}
+
+.column_data_one:first-child {
+	border-top:1px solid #888;
+	background-color: rgba(0, 0, 0, 0.04);
+}
+
+.column_data{
+    width: 100%;
+    border: 1px solid #888;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+	border-top: 0;
+	border-left:0;
+}
+
+.column_data:first-child {
+	border-top:1px solid #888;
+	background-color: rgba(0, 0, 0, 0.04);
+}

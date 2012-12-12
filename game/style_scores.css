@@ -1,0 +1,104 @@
+.cell {
+	height: 100%;
+    width: 29px;
+    float: left;
+    border-left: 1px solid rgb(153,153,153);
+}
+
+.rhe {
+	height: 100%;
+    width: 24px;
+    float: left;
+    border-left: 1px solid rgb(153,153,153);
+	color:rgba(0, 0, 0, 0.70);
+
+}
+
+.spacer {
+	height: 100%;
+    width: 9px;
+    float: left;
+    border-left: 1px solid rgb(153,153,153);
+}
+
+.box {
+	width: 400px;
+    border: 1px solid rgb(153, 153, 153);
+	border-bottom:0;
+	float:left;
+	background-color: rgba(255, 255, 255, 0.26);
+	margin:0 0 0 20px;
+}
+
+.innings {
+	font-family: Arial;
+	text-align: center;
+	font-size: 12px;
+	line-height: 15px;
+	height: 15px;
+	border-bottom: 1px solid rgb(153,153,153);
+}
+
+.innings .cell {
+    border-left:1px solid rgba(0,0,0,0);
+	color:rgba(0, 0, 0, 0.70);
+}
+
+.team_one {
+	height: 40px;
+	border-bottom: 1px solid rgb(153,153,153);
+	line-height:40px;
+	text-align:center;
+	font-family: Arial;
+	font-size: 15px;
+}
+
+.team_one  img{
+	float: left; 
+	height: 32px; 
+	padding-right: 5px; 
+	padding-left: 5px; 
+	padding-top: 4px;
+}
+
+.team_one  .name{
+	font-family: leagueGothicRegular;
+	font-size: 26px;
+	line-height: 45px;
+	text-align:left;
+}
+
+.team_two {
+	height: 40px;
+	border-bottom: 1px solid rgb(153,153,153);
+	line-height:40px;
+	text-align:center;
+	font-family: Arial;
+	font-size: 15px;
+}
+
+.team_two  img{
+	float: left; 
+	height: 32px; 
+	padding-right: 5px; 
+	padding-left: 5px; 
+	padding-top: 4px;
+}
+
+.team_two  .name{
+	font-family: leagueGothicRegular;
+	font-size: 26px;
+	line-height: 45px;
+	text-align:left;
+}
+
+#boys {
+	width:499px;float:left;border-right:1px solid rgba(128, 128, 128, 0.38);
+}
+
+
+#girls {
+	width:499px;
+	float:left;
+	border-right:1px solid rgba(128, 128, 128, 0.38);
+}

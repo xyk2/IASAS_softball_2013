@@ -1,0 +1,125 @@
+#container {
+	background: url(/img/cardboard_flat.jpg);
+	width: 1000px;
+	height:auto;
+	margin: 0 auto;
+	margin-top: 5px;
+	padding-bottom:30px;
+	-moz-box-shadow: 0 0 30px 3px black;
+	-webkit-box-shadow: 0 0 30px 3px black;
+	box-shadow: 0 0 30px 3px black;
+}
+
+.sections {
+	margin: 15px;
+	height: 30px;
+	line-height: 30px;
+	font-family: Arial;
+	margin-left: auto;
+	margin-right: auto;
+	width: 369px;
+	font-size: 14px;
+}
+
+.active {
+	box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.19);
+	background-color: rgba(245, 245, 245, 0.5);
+}
+
+
+.button {
+    float: left;
+    padding-left: 15px;
+	padding-right: 15px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.5);
+    font-weight: bold;
+    color: gray;
+    border: 1px solid rgba(128, 128, 128, 0.51);
+    height: 100%;
+}
+
+.info {
+	font-family: Arial;
+	font-size: 14px;
+	line-height: 60px;
+	font-weight: bold;
+	color: rgba(12, 12, 12, 0.64);
+	
+}
+
+#game {
+	margin-left: 20px;
+	float: left;
+	font-family: leagueGothicRegular;
+	font-size: 30px;
+	font-weight: normal;
+	color: rgba(12, 12, 12, 0.64);
+	line-height: 60px;
+	margin-left: 20px;
+	float: left;
+}
+
+
+.cover {
+	margin-bottom:-3px;
+	width:1000px;
+}
+
+#imgoverlay {
+    position: relative;
+    margin-top: -40px;
+    background-color: rgba(0, 0, 0, 0.53);
+    line-height: 40px;
+    color: white;
+    font-family: Arial;
+    padding-left: 20px;
+    text-align: center;
+}
+
+
+.half_inning {
+	width:650px;
+	margin-left:auto;
+	margin-right:auto;
+	font-family:Arial;
+	margin-top:20px;
+}
+
+.half_inning .title {
+	background:rgba(0,0,0,0.13);
+	cursor:pointer;
+	font-size:14px;
+	height:22px;
+	line-height:22px;
+	font-weight:bold;
+	border-bottom: 1px solid gray;
+	-webkit-user-select:none;
+	color:rgba(0, 0, 0, 0.65);
+}
+
+.half_inning .content {
+	background:rgba(0,0,0,0.06);
+	font-size:13px;
+}
+
+.half_inning ul {
+	width:630px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.half_inning li {
+	border-bottom:1px solid gray;
+	padding-top:12px;
+	padding-bottom:3px;
+}
+
+
+.half_inning li:last-child {
+	border-bottom: none;
+	padding-bottom:10px;
+	margin-bottom:0px;
+}
+
+
