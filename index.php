@@ -74,7 +74,7 @@
 				</div>
 			</div>
 			
-			<h4 style="clear: left;float: left;font-family: leagueGothicRegular;font-size: 26px;color: maroon;margin-left: 15px;">RECENT GAMES</h4>
+			<h4 style="clear: left;float: left;font-family: leagueGothicRegular;font-size: 26px;color: maroon;margin-left: 15px;"></h4>
 			
 		</div>
 	</body>

@@ -1,5 +1,5 @@
-<div style=" width: 1000px; height: 49px;">
-	<ul style=" height: 48px; border-bottom: 1px solid #777;">
+<div style=" width: 1000px; height: 48px;">
+	<ul style=" height: 48px;">
 		<li class="headers" style="border-bottom: 3px solid;color: #C13A27;">
 			<a href="/schedule/">Schedule</a>
 		</li>
