@@ -6,7 +6,7 @@
 		<meta http-equiv="content-type" content="text/html; charset=us-ascii">
 		<link rel="shortcut icon" href="../img/favicon.png"/>
 		<link rel="stylesheet" type="text/css" href="../style.css">
-		<link rel="stylesheet" type="text/css" href="style_scores.css">
+		<link rel="stylesheet" type="text/css" href="./style_scores.css">
 
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
 	</head>
@@ -48,7 +48,7 @@
 									</div>
 									<div class="team_one">
 										<div style="height: 100%;width: 105px;float: left;">
-											<img src="http://iasas.xyk2maker.com/img/school_TAS.png">
+											<img src="../img/school_TAS.png">
 											<p class='name'>TAS</p>
 										</div>
 										<div class='cell'></div>
@@ -65,7 +65,7 @@
 									</div>
 									<div class="team_two">
 										<div style="height: 100%;width: 105px;float: left;">
-											<img src="http://iasas.xyk2maker.com/img/school_SAS.png">
+											<img src="../img/school_SAS.png">
 											<p class='name' style='color:maroon;'>SAS</p>
 										</div>
 										<div class='cell'></div>
@@ -112,7 +112,7 @@
 									</div>
 									<div class="team_one">
 										<div style="height: 100%;width: 105px;float: left;">
-											<img src="http://iasas.xyk2maker.com/img/school_TAS.png">
+											<img src="../img/school_TAS.png">
 											<p class='name'>TAS</p>
 										</div>
 										<div class='cell'></div>
@@ -129,7 +129,7 @@
 									</div>
 									<div class="team_two">
 										<div style="height: 100%;width: 105px;float: left;">
-											<img src="http://iasas.xyk2maker.com/img/school_SAS.png">
+											<img src="../img/school_SAS.png">
 											<p class='name' style='color:maroon;'>SAS</p>
 										</div>
 										<div class='cell'></div>

@@ -7,16 +7,16 @@
 	<link rel="shortcut icon" href="img/favicon.png"/>
 	<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
 	
-	<script src="js/jquery-1.3.2.min.js"></script>
-	<script src="js/jquery.qtip-1.0.0-rc3.min.js"></script>
-	<script src="js/loadxmldoc.js"></script>
+	<script src="./js/jquery-1.3.2.min.js"></script>
+	<script src="./js/jquery.qtip-1.0.0-rc3.min.js"></script>
+	<script src="./js/loadxmldoc.js"></script>
 	<script src="http://ajax.googleapis.com/ajax/libs/swfobject/2.1/swfobject.js"></script>
-	<script src="js/field_view.js"></script>
-	<script src="js/innings.js"></script>
+	<script src="./js/field_view.js"></script>
+	<script src="./js/innings.js"></script>
 
-  	<link rel="stylesheet" type="text/css" href="style_home.css" media="all"/>
-	<link rel="stylesheet" type="text/css" href="style_tabs.css" media="all"/>
-  	<link rel="stylesheet" type="text/css" href="style_pbp.css" media="all"/>
+  	<link rel="stylesheet" type="text/css" href="./style_home.css" media="all"/>
+	<link rel="stylesheet" type="text/css" href="./style_tabs.css" media="all"/>
+  	<link rel="stylesheet" type="text/css" href="./style_pbp.css" media="all"/>
 
 
 		<script> <!-- all XML -->
@@ -41,7 +41,7 @@
     </script>
 </head>
 
-<body style='width:650px;margin-left:auto;margin-right:auto;margin-top:20px;background: url(http://i.imgur.com/lksgQ.png);'>
+<body style='width:650px;margin-left:auto;margin-right:auto;margin-top:20px;background: url(./img/background.png);'>
 	<h1 style="float: left;">
 		TAS
 		<span style="font-size: 35px;"> vs </span>
@@ -49,10 +49,10 @@
 		<span style="font-size: 20px;">3:30pm - Upper Field</span>
 	</h1>
 	<div style="width: 110px;position: absolute;margin-left: 543px;margin-top: 30px;">
-		<img style="float: left;" src="img/ajaxloading.gif">
+		<img style="float: left;" src="./img/ajaxloading.gif">
     <p style="font-family:Arial;font-size:11px;font-weight:bold;position: relative;line-height: 16px;margin: 0;padding-left: 20px;color: #c8c8c8;">UPDATING LIVE</p>
 	</div>
-	<img src="img/underline.png" style="height: 3px;width: 650px;position: relative;top: -5px;">
+	<img src="./img/underline.png" style="height: 3px;width: 650px;position: relative;top: -5px;">
 	
 	<div style='margin-top:5px;height:86px;margin-bottom:15px;'>
 		<table id='boxscore' class="boxscore" border="0" cellspacing="0">
@@ -72,7 +72,7 @@
 			</tr>
 			
 			<tr id='team_one'>
-				<th style="padding-right: 8px;"><img src="img/school_TAS.png" width="30px" height="30px" style="" /></th>
+				<th style="padding-right: 8px;"><img src="./img/school_TAS.png" width="30px" height="30px" style="" /></th>
 				<th style="width: auto;padding: 0px;text-align: left;padding-right: 10px;">
 					<p style="font-weight: bold;font-size: 14px;text-align: right;">TAS</p>
 					<p style="font-size: 12px;text-align: right;">0-0</p>
@@ -90,7 +90,7 @@
 			</tr>
 			
 			<tr id='team_two'>
-				<th style=" padding-right: 8px;"><img src="img/school_SAS.png" width="30px" height="30px" style="" /></th>
+				<th style=" padding-right: 8px;"><img src="./img/school_SAS.png" width="30px" height="30px" style="" /></th>
 				<th style=" width: auto; padding: 0px; text-align: left; padding-right: 10px;">
 					<p style=" font-weight: bold; font-size: 14px; text-align: right;">SAS</p>
 					<p style=" font-size: 12px; text-align: right;">0-0</p>
@@ -118,16 +118,16 @@
 			</table>
 
 			<div id='notification' style='width:auto;float:left'>
-				<img id='balls' class="balls" src="img/blank.png" width="0" height="0" />
+				<img id='balls' class="balls" src="./img/blank.png" width="0" height="0" />
 				</br>
-				<img id='strikes' class="strikes" src="img/blank.png" width="0" height="0" />
+				<img id='strikes' class="strikes" src="./img/blank.png" width="0" height="0" />
 				</br>
-				<img id='outs' class="outs" src="img/blank.png" width="0" height="0"/>
+				<img id='outs' class="outs" src="./img/blank.png" width="0" height="0"/>
 			</div>
 		</div>
 		
 		<div style='margin-left:10px;float:left;'>
-			<img src='img/blank.png' id='bases' class='bases' usemap="#basesmap">
+			<img src='./img/blank.png' id='bases' class='bases' usemap="#basesmap">
 			<map name="basesmap" id='basesmap'>
 				<area shape="poly" coords="24,22,34,12,35,12,45,22,35,32,34,32" alt='runner' id='first' data-taken='0' />
 				<area shape="poly" coords="12,10,22,0,23,0,33,10,23,20,22,20" alt='runner' id='second' data-taken='0' />
@@ -338,7 +338,7 @@
 			<p id='pbp_count_outs'>2-2&nbsp;&nbsp;1 OUT</p>
 		</div>
 			<div style="padding: 5px;height: 42px;background-color: #e7e7e7;border-top: 1px solid #CCC;border-bottom: 1px solid #CCC;">
-				<img src="http://iasas.xyk2maker.com/img/school_TAS.png" id='pbp_image' width="34" height="34" style="padding:3px; border: 1px solid #ADADAD;float: left;background-color: #EEE;">
+				<img src="../img/school_TAS.png" id='pbp_image' width="34" height="34" style="padding:3px; border: 1px solid #ADADAD;float: left;background-color: #EEE;">
 				<p style="font-size: 11px;font-family: arial;float: left;padding-left: 5px;padding-top: 5px;">
 					BATTING
 				</p>
@@ -730,7 +730,7 @@ $(document).ready(function() {
 			function update_all(){
 				$.ajax({
 					type: "GET",
-					url: "/gamecast_new/iasas_softball.xml"+'?'+Math.random(),
+					url: "./iasas_softball.xml"+'?'+Math.random(),
 					dataType: "xml",
 					success: function(xml) {
 						var val = 2;
@@ -814,15 +814,15 @@ $(document).ready(function() {
 						$('#pbp_batter').html($(xml).find('batter').text() + ' ' + $(xml).find('batter_meta').text());
 											
 						if($(xml).find('realtime inning_half').text() == '0') {
-							$("#pbp_image").attr('src', '/img/school_'+$(xml).find('teams team_one').text()+'.png');
+							$("#pbp_image").attr('src', '../img/school_'+$(xml).find('teams team_one').text()+'.png');
 						} else {
-							$("#pbp_image").attr('src', '/img/school_'+$(xml).find('teams team_two').text()+'.png');
+							$("#pbp_image").attr('src', '../img/school_'+$(xml).find('teams team_two').text()+'.png');
 						}
 
 						/* PLAY-BY-PLAY */
 						$.ajax({
 							type: "GET",
-							url: "/gamecast_new/xml/play_by_play.xml"+'?'+Math.random(),
+							url: "./xml/play_by_play.xml"+'?'+Math.random(),
 							dataType: "xml",
 							success: function(pbp) {
 								var inning_words = ["0","one","two","three","four","five","six","seven","eight","nine","ten"];

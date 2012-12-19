@@ -6,7 +6,7 @@
 		<meta http-equiv="content-type" content="text/html; charset=us-ascii">
 		<link rel="shortcut icon" href="../img/favicon.png"/>
 		<link rel="stylesheet" type="text/css" href="../style.css">
-		<link rel="stylesheet" type="text/css" href="photos_style.css">
+		<link rel="stylesheet" type="text/css" href="./photos_style.css">
 
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
 
@@ -24,7 +24,7 @@
 			</h2>
 			<a href='http://www.flickr.com/photos/tigersathletics/'>
 				<h3 id="on_flickr">
-					TigersAthletics on <img src="/img/flickr.png">
+					TigersAthletics on <img src="../img/flickr.png">
 				</h3>
 			</a>
 			

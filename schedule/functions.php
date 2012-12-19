@@ -11,27 +11,27 @@ function insert_row($time, $ampm, $side, $opponent, $text, $link) {
 			<span style='font-weight: bold;'>";
 	switch($opponent) {
 		case 'TAS':
-			$style = 'background:url(/img/sprite_combined_compressed.png) -72px 0;';
+			$style = 'background:url(../img/sprite_combined_compressed.png) -72px 0;';
 			break;
 		case 'SAS':
-			$style = 'background:url(/img/sprite_combined_compressed.png) -72px -19px;';
+			$style = 'background:url(../img/sprite_combined_compressed.png) -72px -19px;';
 			break;
 		case 'ISB':
-			$style = 'background:url(/img/sprite_combined_compressed.png) -72px -38px;';
+			$style = 'background:url(../img/sprite_combined_compressed.png) -72px -38px;';
 			break;
 		case 'ISM':
-			$style = 'background:url(/img/sprite_combined_compressed.png) -72px -57px;';
+			$style = 'background:url(../img/sprite_combined_compressed.png) -72px -57px;';
 			break;
 		case 'ISKL':
-			$style = 'background:url(/img/sprite_combined_compressed.png) -72px -76px;';
+			$style = 'background:url(../img/sprite_combined_compressed.png) -72px -76px;';
 			break;
 		case 'JIS':
-			$style = 'background:url(/img/sprite_combined_compressed.png) -72px -95px;';
+			$style = 'background:url(../img/sprite_combined_compressed.png) -72px -95px;';
 			break;
 			
 	}
 	
-	echo "<img src='/img/blank.gif' " . "style='" . $style . "'>";
+	echo "<img src='../img/blank.gif' " . "style='" . $style . "'>";
 	echo $opponent;
 	echo "</span>
 		</td>

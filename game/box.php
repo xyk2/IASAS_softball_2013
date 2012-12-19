@@ -4,10 +4,10 @@
 	<head>
 		<title>Game Template - IASAS Softball 2013</title>
 		<meta http-equiv="content-type" content="text/html; charset=us-ascii">
-		<link rel="shortcut icon" href="/img/favicon.png"/>
-		<link rel="stylesheet" type="text/css" href="/style.css">
-		<link rel="stylesheet" type="text/css" href="style_game.css">
-		<link rel="stylesheet" type="text/css" href="style_box.css">
+		<link rel="shortcut icon" href="../img/favicon.png"/>
+		<link rel="stylesheet" type="text/css" href="../style.css">
+		<link rel="stylesheet" type="text/css" href="./style_game.css">
+		<link rel="stylesheet" type="text/css" href="./style_box.css">
 
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
 	</head>
@@ -22,16 +22,16 @@
 			<div id='game'>SAS vs TAS Girls</div>
 			<div style="margin-right: 20px;float: right;" class='info'>Saturday April 13, 3:30pm</div>
 			<div class="sections">
-					<a href="index.php">
+					<a href="./index.php">
 						<div style="border-radius: 5px 0 0 5px;" class='button'>Wrap</div>
 					</a>
-					<a href="box.php">
+					<a href="./box.php">
 						<div style="border-radius:none;border-left:none;" class='button active'>Box Score</div>
 					</a>
-					<a href="play-by-play.php">
+					<a href="./play-by-play.php">
 						<div style="border-radius:none;border-left:none;" class='button'>Play-by-Play</div>
 					</a>
-					<a href="photos.php">
+					<a href="./photos.php">
 						<div style="border-radius:0 5px 5px 0;border-left:none;" class='button'>Photos</div>
 					</a>
 			</div>
@@ -53,7 +53,7 @@
 					</div>
 					<div class="team_one">
 						<div style="height: 100%;width: 150px;float: left;">
-							<img src="http://iasas.xyk2maker.com/img/school_TAS.png">
+							<img src="../img/school_TAS.png">
 							<p class="name" style="color:navy;">TAS</p>
 						</div>
 						<div class="cell">1</div>
@@ -70,7 +70,7 @@
 					</div>
 					<div class="team_two">
 						<div style="height: 100%;width: 150px;float: left;">
-							<img src="http://iasas.xyk2maker.com/img/school_SAS.png">
+							<img src="../img/school_SAS.png">
 							<p class="name" style="color:maroon;">SAS</p>
 						</div>
 						<div class="cell">4</div>

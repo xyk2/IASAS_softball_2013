@@ -5,8 +5,8 @@
 		<title>Teams - IASAS Softball 2013</title>
 		<meta http-equiv="content-type" content="text/html; charset=us-ascii">
 		<link rel="shortcut icon" href="../img/favicon.png"/>
-		<link rel="stylesheet" type="text/css" href="/style.css">
-		<link rel="stylesheet" type="text/css" href="teams_style.css">
+		<link rel="stylesheet" type="text/css" href="../style.css">
+		<link rel="stylesheet" type="text/css" href="./teams_style.css">
 
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
 		<script src="../js/tabify/jquery.tabify.js" type="text/javascript" charset="utf-8"></script>
@@ -41,7 +41,7 @@
 						margin-left:40px;
 			}
 		</style>
-		<script type="text/javascript" src="/js/jquery.leanModal.min.js"></script>
+		<script type="text/javascript" src="../js/jquery.leanModal.min.js"></script>
 
 		<script type="text/javascript">
 			$(function() {
@@ -62,18 +62,18 @@
 				</h2>
 				<div style='float:left'>
 					<ul id="menu" class="menu">
-						<li class="active"><a href="#tas" style='line-height: 22px;padding-top: 5px;padding-bottom: 5px;'><img src="/img/blank.gif" class="tab_sprite" style="background: url(/img/sprite_combined_compressed.png) -50px 0px;">TAS</a></li>
-						<li><a href="#sas" style='line-height: 22px;padding-top: 5px;padding-bottom: 5px;'><img src="/img/blank.gif" class='tab_sprite' style="background: url(/img/sprite_combined_compressed.png) -50px -22px;">SAS</a></li>
-						<li><a href="#isb" style='line-height: 22px;padding-top: 5px;padding-bottom: 5px;'><img src="/img/blank.gif" class='tab_sprite' style="background: url(/img/sprite_combined_compressed.png) -50px -44px;">ISB</a></li>
-						<li><a href="#ism" style='line-height: 22px;padding-top: 5px;padding-bottom: 5px;'><img src="/img/blank.gif" class='tab_sprite' style="background: url(/img/sprite_combined_compressed.png) -50px -66px;">ISM</a></li>
-						<li><a href="#iskl" style='line-height: 22px;padding-top: 5px;padding-bottom: 5px;'><img src="/img/blank.gif" class='tab_sprite' style="background: url(/img/sprite_combined_compressed.png) -50px -88px;">ISKL</a></li>
-						<li><a href="#jis" style='line-height: 22px;padding-top: 5px;padding-bottom: 5px;'><img src="/img/blank.gif" class='tab_sprite' style="background: url(/img/sprite_combined_compressed.png) -50px -110px;">JIS</a></li>
+						<li class="active"><a href="#tas" style='line-height: 22px;padding-top: 5px;padding-bottom: 5px;'><img src="../img/blank.gif" class="tab_sprite" style="background: url(../img/sprite_combined_compressed.png) -50px 0px;">TAS</a></li>
+						<li><a href="#sas" style='line-height: 22px;padding-top: 5px;padding-bottom: 5px;'><img src="../img/blank.gif" class='tab_sprite' style="background: url(../img/sprite_combined_compressed.png) -50px -22px;">SAS</a></li>
+						<li><a href="#isb" style='line-height: 22px;padding-top: 5px;padding-bottom: 5px;'><img src="../img/blank.gif" class='tab_sprite' style="background: url(../img/sprite_combined_compressed.png) -50px -44px;">ISB</a></li>
+						<li><a href="#ism" style='line-height: 22px;padding-top: 5px;padding-bottom: 5px;'><img src="../img/blank.gif" class='tab_sprite' style="background: url(../img/sprite_combined_compressed.png) -50px -66px;">ISM</a></li>
+						<li><a href="#iskl" style='line-height: 22px;padding-top: 5px;padding-bottom: 5px;'><img src="../img/blank.gif" class='tab_sprite' style="background: url(../img/sprite_combined_compressed.png) -50px -88px;">ISKL</a></li>
+						<li><a href="#jis" style='line-height: 22px;padding-top: 5px;padding-bottom: 5px;'><img src="../img/blank.gif" class='tab_sprite' style="background: url(../img/sprite_combined_compressed.png) -50px -110px;">JIS</a></li>
 					</ul>
 				
 					<!-- TAS --> 
 					<div id="tas" class="content" style="">
 						<div style="width:100%; height:60px; clear:both">
-							<img src="/img/blank.gif" style='background:url(/img/sprite_combined_compressed.png) 0 0;' class="team_tab_sprite">
+							<img src="../img/blank.gif" style='background:url(../img/sprite_combined_compressed.png) 0 0;' class="team_tab_sprite">
 							<h2 class="school_title">Taipei American School</h2>
 						</div>
 						<div class='boys'>
@@ -90,7 +90,7 @@
 					<!-- SAS -->
 					<div id="sas" class="content" style="">
 						<div style="width:100%; height:60px; clear:both">
-							<img src="/img/blank.gif" style='background:url(/img/sprite_combined_compressed.png) 0 -50px;' class="team_tab_sprite">
+							<img src="../img/blank.gif" style='background:url(../img/sprite_combined_compressed.png) 0 -50px;' class="team_tab_sprite">
 							<h2 class="school_title">Singapore American School</h2>
 						</div>
 					</div>
@@ -98,7 +98,7 @@
 					<!-- ISB -->				
 					<div id="isb" class="content" style="">
 						<div style="width:100%; height:60px; clear:both">
-							<img src="/img/blank.gif" style='background:url(/img/sprite_combined_compressed.png) 0 -100px;' class="team_tab_sprite">
+							<img src="../img/blank.gif" style='background:url(../img/sprite_combined_compressed.png) 0 -100px;' class="team_tab_sprite">
 							<h2 class="school_title">International School of Bangkok</h2>
 						</div>
 					</div>
@@ -106,7 +106,7 @@
 					<!-- ISM -->										
 					<div id="ism" class="content" style="">
 						<div style="width:100%; height:60px; clear:both">
-							<img src="/img/blank.gif" style='background:url(/img/sprite_combined_compressed.png) 0 -150px;' class="team_tab_sprite">
+							<img src="../img/blank.gif" style='background:url(../img/sprite_combined_compressed.png) 0 -150px;' class="team_tab_sprite">
 							<h2 class="school_title">International School of Manila</h2>
 						</div>
 					</div>
@@ -114,7 +114,7 @@
 					<!-- ISKL -->	
 					<div id="iskl" class="content" style="">
 						<div style="width:100%; height:60px; clear:both">
-							<img src="/img/blank.gif" style='background:url(/img/sprite_combined_compressed.png) 0 -200px;' class="team_tab_sprite">
+							<img src="../img/blank.gif" style='background:url(../img/sprite_combined_compressed.png) 0 -200px;' class="team_tab_sprite">
 							<h2 class="school_title">International School of Kuala Lumpur</h2>
 						</div>
 					</div>
@@ -122,7 +122,7 @@
 					<!-- JIS -->	
 					<div id="jis" class="content" style="">
 						<div style="width:100%; height:60px; clear:both">
-							<img src="/img/blank.gif" style='background:url(/img/sprite_combined_compressed.png) 0 -250px;' class="team_tab_sprite">
+							<img src="../img/blank.gif" style='background:url(../img/sprite_combined_compressed.png) 0 -250px;' class="team_tab_sprite">
 							<h2 class="school_title">Jakarta International School</h2>
 						</div>
 					</div>
@@ -134,7 +134,7 @@
 		</div>
 		
 		<div id="TAS_boys" style='width: 700px;display:none;'>
-			<img src='photos/TAS_boys.jpg' style='width:700px;border-radius: 5px;-moz-border-radius: 5px;-webkit-border-radius: 5px;'>
+			<img src='./photos/TAS_boys.jpg' style='width:700px;border-radius: 5px;-moz-border-radius: 5px;-webkit-border-radius: 5px;'>
 		</div>
 	</body>
 </html>

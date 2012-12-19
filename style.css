@@ -2,23 +2,23 @@ html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockqu
 
 @font-face {
 	font-family: LeagueGothic;
-	src: url("/league_gothic/webfonts/leaguegothic-condensed-regular-webfont.woff");
+	src: url("./league_gothic/webfonts/leaguegothic-condensed-regular-webfont.woff");
 }
 
 @font-face {
 	font-family: LeagueGothicRegular;
-	src: url("/league_gothic/webfonts/leaguegothic-regular-webfont.woff");
+	src: url("./league_gothic/webfonts/leaguegothic-regular-webfont.woff");
 }
 
 body {
-	background: #31363A url(/img/concrete_wall_91.jpg);
+	background: #31363A url("./img/concrete_wall_91.jpg");
 	height: 100%;
 	margin: 0;
 	padding: 0;
 }
 
 #container {
-	background: #DCDCDC url(/img/cardboard_flat.jpg);
+	background: #DCDCDC url("./img/cardboard_flat.jpg");
 	width: 1000px;
 	height: 100%;
 	margin: 0 auto;

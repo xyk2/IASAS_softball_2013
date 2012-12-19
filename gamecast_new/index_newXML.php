@@ -20,8 +20,6 @@
 
 
 		<script> <!-- all XML -->
-
-			
 			function get_data() {
 				old = new Date().getMilliseconds();
 				console.log(old);

@@ -20,7 +20,7 @@ h1 {
 	}
 
 .bases  {	
-	background: url("img/111.png");
+	background: url("./img/111.png");
 	background-repeat: no-repeat;
 	float:left;
 	-webkit-touch-callout: none;
@@ -71,7 +71,7 @@ img.balls
 	-webkit-touch-callout: none;
 	-webkit-user-select: none;
 	-moz-user-select: none;
-	background:url(img/balls_sprite.png) 0px -60px;
+	background:url(./img/balls_sprite.png) 0px -60px;
 }
 
 .video:hover {
@@ -85,7 +85,7 @@ img.strikes
 		-webkit-touch-callout: none;
 	-webkit-user-select: none;
 	-moz-user-select: none;
-	background:url(img/strikes_sprite.png) 0px -45px;
+	background:url(./img/strikes_sprite.png) 0px -45px;
 }
 
 img.outs
@@ -95,7 +95,7 @@ img.outs
 		-webkit-touch-callout: none;
 	-webkit-user-select: none;
 	-moz-user-select: none;
-	background:url(img/out_sprite.png) 0px -45px;
+	background:url(./img/out_sprite.png) 0px -45px;
 }
 
 ::-webkit-scrollbar {
