@@ -1,4 +1,4 @@
-<nav style=" width: 1000px; height: 48px;">
+<nav style=" width: 1000px; height: 48px;clear:both;">
 	<ul style=" height: 48px;">
 		<li class="headers" style="border-bottom: 3px solid;color: #C13A27;">
 			<a href="/softball/schedule/">Schedule</a>

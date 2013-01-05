@@ -26,6 +26,7 @@ body {
 	-moz-box-shadow: 0 0 30px 3px black;
 	-webkit-box-shadow: 0 0 30px 3px black;
 	box-shadow: 0 0 30px 3px black;
+	clear:both;
 }
 
 #title {
