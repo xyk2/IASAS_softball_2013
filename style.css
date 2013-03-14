@@ -107,6 +107,47 @@ body {
 	margin-top: 10px;
 }
 
+#scoreboard p {
+	float:left;
+	font-family:Arial;
+	font-weight:bold;
+	line-height: 25px;
+}
+
+#scoreboard p span {
+	font-weight:normal;
+	font-size:12px;
+}
+
+#scoreboard {
+width: 220px;
+background: rgba(255,255,255,0.4);
+padding: 10px;
+margin-left:15px;
+margin-top:10px;
+}
+
+#scoreboard h5 {
+	text-align: center;
+	font-family: Arial;
+	font-size: 18px;
+	font-weight: bold;
+	color: rgb(165, 61, 61);
+}
+
+.internal_score_block {
+	border-bottom:1px solid gray;
+	height:25px;
+	padding:5px;
+}
+.internal_score_block:last-child {
+	border-bottom:none;
+}
+
+.label {
+	margin-top:3px;
+	float:right;
+}
 
 #tas_50px {background: url(./img/sprite_combined_compressed.png) 0 0;width:50px;height:50px;}
 #sas_50px {background: url(./img/sprite_combined_compressed.png) 0 -50px;width:50px;height:50px;}
