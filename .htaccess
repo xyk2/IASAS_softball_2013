@@ -5,4 +5,4 @@ AddType audio/ogg  ogg oga
 AddType video/webm webm
 AddType text/cache-manifest manifest
 
-ErrorDocument 404 ./404.php
+ErrorDocument 404 /404.php

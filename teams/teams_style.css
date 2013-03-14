@@ -104,3 +104,29 @@
 	-webkit-border-radius: 5px;
 	background-color: rgb(224, 224, 224);
 }
+
+
+.menu { padding: 0; margin-top:10px; margin-left:40px;}
+.menu li { display: inline; }
+.menu li a { font-family: Arial;
+			background: rgba(192, 192, 192, 0.7); 
+			padding: 10px; 
+			float:left; 
+			border-bottom: none; 
+			text-decoration: none; 
+			color: #444; 
+			font-weight: bold;
+			margin-right: 5px;
+			line-height: 22px;
+			padding-top: 5px;
+			padding-bottom: 5px;
+			}
+.menu li.active a { font-family: Arial;
+					background:rgba(255, 255, 255, 0.59); 
+				}
+.content { float: left; 
+			background:rgba(255, 255, 255, 0.59);
+			padding: 10px 20px 20px; 
+			width: 880px; 
+			margin-left:40px;
+}

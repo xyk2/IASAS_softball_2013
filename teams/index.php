@@ -56,17 +56,15 @@
 		<div id='container' style='min-height: 724px;'>
 			<?php include ("../navigation.php"); ?>
 			<div style="width: 1000px;">
-				<h2 style="font-family: leagueGothicRegular;color: rgba(0, 0, 0, 0.47);font-size: 40px;margin-left: 40px;margin-top: 10px;float:left;">
-					Teams
-				</h2>
+				<h2 style="font-family: leagueGothicRegular;color: rgba(0, 0, 0, 0.47);font-size: 40px;margin-left: 40px;margin-top: 10px;float:left;">Teams</h2>
 				<div style='float:left'>
 					<ul id="menu" class="menu">
-						<li class="active"><a href="#tas" style='line-height: 22px;padding-top: 5px;padding-bottom: 5px;'><img src="../img/blank.gif" class="tab_sprite" style="background: url(../img/sprite_combined_compressed.png) -50px 0px;">TAS</a></li>
-						<li><a href="#sas" style='line-height: 22px;padding-top: 5px;padding-bottom: 5px;'><img src="../img/blank.gif" class='tab_sprite' style="background: url(../img/sprite_combined_compressed.png) -50px -22px;">SAS</a></li>
-						<li><a href="#isb" style='line-height: 22px;padding-top: 5px;padding-bottom: 5px;'><img src="../img/blank.gif" class='tab_sprite' style="background: url(../img/sprite_combined_compressed.png) -50px -44px;">ISB</a></li>
-						<li><a href="#ism" style='line-height: 22px;padding-top: 5px;padding-bottom: 5px;'><img src="../img/blank.gif" class='tab_sprite' style="background: url(../img/sprite_combined_compressed.png) -50px -66px;">ISM</a></li>
-						<li><a href="#iskl" style='line-height: 22px;padding-top: 5px;padding-bottom: 5px;'><img src="../img/blank.gif" class='tab_sprite' style="background: url(../img/sprite_combined_compressed.png) -50px -88px;">ISKL</a></li>
-						<li><a href="#jis" style='line-height: 22px;padding-top: 5px;padding-bottom: 5px;'><img src="../img/blank.gif" class='tab_sprite' style="background: url(../img/sprite_combined_compressed.png) -50px -110px;">JIS</a></li>
+						<li class="active"><a href="#tas"><img src="../img/blank.gif" class="tab_sprite" id='tas_22px'>TAS</a></li>
+						<li><a href="#sas"><img src="../img/blank.gif" class='tab_sprite' id='sas_22px'>SAS</a></li>
+						<li><a href="#isb"><img src="../img/blank.gif" class='tab_sprite' id='isb_22px'>ISB</a></li>
+						<li><a href="#ism"><img src="../img/blank.gif" class='tab_sprite' id='ism_22px'>ISM</a></li>
+						<li><a href="#iskl"><img src="../img/blank.gif" class='tab_sprite' id='iskl_22px'>ISKL</a></li>
+						<li><a href="#jis"><img src="../img/blank.gif" class='tab_sprite' id='jis_22px'>JIS</a></li>
 					</ul>
 				
 					<!-- TAS --> 

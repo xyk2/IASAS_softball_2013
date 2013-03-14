@@ -35,16 +35,29 @@
 		
 		<div id='container'>
 			<?php include ("./navigation.php"); ?>
-	
+
 
 			<div id="slides">
 				<div class="slides_container">
 					<div class="slide">
 						<img src="./front_page_images/5_compressed.jpg" width="1000" height="400" alt="">
 					</div>
-					<div class="slide">
-						<img src="./front_page_images/9_mini.jpg" width="1000" height="400" alt="">
-					</div>
+					<?php 
+					$filenames = glob('./front_page_images/*.jpg');
+					$timestamps = array();
+					foreach($filenames as $name) array_push($timestamps, filectime($name)); //add timestamp of each file to $timestamps array
+					array_multisort($timestamps, SORT_DESC, $filenames, SORT_DESC);
+					
+					$num_of_photos = 5;
+					if(count($filenames) < 5) $num_of_photos = count($filenames);
+					
+					for($x = 0; $x < $num_of_photos; $x++) {
+						echo "<div class='slide'>
+							<img src='{$filenames[$x]}' width='1000' height='400' alt=''>
+						</div>
+						";
+					}
+					?>
 					<div class="slide">
 						<img src="./front_page_images/8_mini.jpg" width="1000" height="400" alt="">
 						<div class="caption">
@@ -53,6 +66,7 @@
 					</div>
 				</div>
 			</div>
+
 			
 			<h4 style="clear: left;float: left;font-family: leagueGothicRegular;font-size: 26px;color: maroon;margin-left: 15px;">THURSDAY</h4>
 			
