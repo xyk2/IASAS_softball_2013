@@ -91,3 +91,16 @@
     background: #000;
     display: none;
 }
+
+.modal {
+	width: 700px;
+	display:none;
+}
+
+.modal img {
+	width:700px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	background-color: rgb(224, 224, 224);
+}

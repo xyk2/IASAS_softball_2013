@@ -72,70 +72,161 @@
 					<!-- TAS --> 
 					<div id="tas" class="content" style="">
 						<div style="width:100%; height:60px; clear:both">
-							<img src="../img/blank.gif" style='background:url(../img/sprite_combined_compressed.png) 0 0;' class="team_tab_sprite">
+							<img src="../img/blank.gif" id='tas_50px' class="team_tab_sprite">
 							<h2 class="school_title">Taipei American School</h2>
 						</div>
 						<div class='boys'>
-							<!-- <a rel='leanModal' href='#TAS_boys'><img src='photos/TAS_boys.jpg' style='width:419px;'></a> -->
-							<a rel='leanModal' href='#TAS_boys'><img src='../img/team_placeholder/tas_mini.png' style='width:419px;'></a>
-							<?php include("rosters/TAS_boys.php"); ?>
+							<?php $school = 'TAS'; $gender = 'boys';
+							echo "<a rel='leanModal' href='#{$school}_{$gender}'><img src='";
+							if(file_exists("photos/{$school}_{$gender}.jpg")) echo "photos/{$school}_{$gender}.jpg";
+							else echo "../img/team_placeholder/" . strtolower($school) . "_mini.png";
+							echo "' style='width:419px;'></a>";
+							include("rosters/{$school}_{$gender}.php");  ?>
 						</div>
 						<div class='girls'>
-							<!-- <a rel='leanModal' href='#TAS_boys'><img src='photos/TAS_boys.jpg' style='width:419px;'></a> -->
-							<a rel='leanModal' href='#TAS_boys'><img src='../img/team_placeholder/tas_mini.png' style='width:419px;'></a>
-							<?php include("rosters/TAS_girls.php"); ?>
+							<?php $school = 'TAS'; $gender = 'girls';
+							echo "<a rel='leanModal' href='#{$school}_{$gender}'><img src='";
+							if(file_exists("photos/{$school}_{$gender}.jpg")) echo "photos/{$school}_{$gender}.jpg";
+							else echo "../img/team_placeholder/" . strtolower($school) . "_mini.png";
+							echo "' style='width:419px;'></a>";
+							include("rosters/{$school}_{$gender}.php");  ?>
 						</div>
 					</div>
 					
 					<!-- SAS -->
 					<div id="sas" class="content" style="">
 						<div style="width:100%; height:60px; clear:both">
-							<img src="../img/blank.gif" style='background:url(../img/sprite_combined_compressed.png) 0 -50px;' class="team_tab_sprite">
+							<img src="../img/blank.gif" id='sas_50px' class="team_tab_sprite">
 							<h2 class="school_title">Singapore American School</h2>
+						</div>
+						<div class='boys'>
+							<?php $school = 'SAS'; $gender = 'boys';
+							echo "<a rel='leanModal' href='#{$school}_{$gender}'><img src='";
+							if(file_exists("photos/{$school}_{$gender}.jpg")) echo "photos/{$school}_{$gender}.jpg";
+							else echo "../img/team_placeholder/" . strtolower($school) . "_mini.png";
+							echo "' style='width:419px;'></a>";
+							include("rosters/{$school}_{$gender}.php");  ?>
+						</div>
+						<div class='girls'>
+							<?php $school = 'SAS'; $gender = 'girls';
+							echo "<a rel='leanModal' href='#{$school}_{$gender}'><img src='";
+							if(file_exists("photos/{$school}_{$gender}.jpg")) echo "photos/{$school}_{$gender}.jpg";
+							else echo "../img/team_placeholder/" . strtolower($school) . "_mini.png";
+							echo "' style='width:419px;'></a>";
+							include("rosters/{$school}_{$gender}.php");  ?>
 						</div>
 					</div>
 					
 					<!-- ISB -->				
 					<div id="isb" class="content" style="">
 						<div style="width:100%; height:60px; clear:both">
-							<img src="../img/blank.gif" style='background:url(../img/sprite_combined_compressed.png) 0 -100px;' class="team_tab_sprite">
+							<img src="../img/blank.gif" id='isb_50px' class="team_tab_sprite">
 							<h2 class="school_title">International School of Bangkok</h2>
 						</div>
+						<div class='boys'>
+							<?php $school = 'ISB'; $gender = 'boys';
+							echo "<a rel='leanModal' href='#{$school}_{$gender}'><img src='";
+							if(file_exists("photos/{$school}_{$gender}.jpg")) echo "photos/{$school}_{$gender}.jpg";
+							else echo "../img/team_placeholder/" . strtolower($school) . "_mini.png";
+							echo "' style='width:419px;'></a>";
+							include("rosters/{$school}_{$gender}.php");  ?>
+						</div>
+						<div class='girls'>
+							<?php $school = 'ISB'; $gender = 'girls';
+							echo "<a rel='leanModal' href='#{$school}_{$gender}'><img src='";
+							if(file_exists("photos/{$school}_{$gender}.jpg")) echo "photos/{$school}_{$gender}.jpg";
+							else echo "../img/team_placeholder/" . strtolower($school) . "_mini.png";
+							echo "' style='width:419px;'></a>";
+							include("rosters/{$school}_{$gender}.php");  ?>
+						</div>						
 					</div>
 					
 					<!-- ISM -->										
 					<div id="ism" class="content" style="">
 						<div style="width:100%; height:60px; clear:both">
-							<img src="../img/blank.gif" style='background:url(../img/sprite_combined_compressed.png) 0 -150px;' class="team_tab_sprite">
+							<img src="../img/blank.gif" id='ism_50px' class="team_tab_sprite">
 							<h2 class="school_title">International School of Manila</h2>
 						</div>
+						<div class='boys'>
+							<?php $school = 'ISM'; $gender = 'boys';
+							echo "<a rel='leanModal' href='#{$school}_{$gender}'><img src='";
+							if(file_exists("photos/{$school}_{$gender}.jpg")) echo "photos/{$school}_{$gender}.jpg";
+							else echo "../img/team_placeholder/" . strtolower($school) . "_mini.png";
+							echo "' style='width:419px;'></a>";
+							include("rosters/{$school}_{$gender}.php");  ?>
+						</div>
+						<div class='girls'>
+							<?php $school = 'ISM'; $gender = 'girls';
+							echo "<a rel='leanModal' href='#{$school}_{$gender}'><img src='";
+							if(file_exists("photos/{$school}_{$gender}.jpg")) echo "photos/{$school}_{$gender}.jpg";
+							else echo "../img/team_placeholder/" . strtolower($school) . "_mini.png";
+							echo "' style='width:419px;'></a>";
+							include("rosters/{$school}_{$gender}.php");  ?>
+						</div>								
 					</div>
 					
 					<!-- ISKL -->	
 					<div id="iskl" class="content" style="">
 						<div style="width:100%; height:60px; clear:both">
-							<img src="../img/blank.gif" style='background:url(../img/sprite_combined_compressed.png) 0 -200px;' class="team_tab_sprite">
+							<img src="../img/blank.gif" id='iskl_50px' class="team_tab_sprite">
 							<h2 class="school_title">International School of Kuala Lumpur</h2>
 						</div>
+						<div class='boys'>
+							<?php $school = 'ISKL'; $gender = 'boys';
+							echo "<a rel='leanModal' href='#{$school}_{$gender}'><img src='";
+							if(file_exists("photos/{$school}_{$gender}.jpg")) echo "photos/{$school}_{$gender}.jpg";
+							else echo "../img/team_placeholder/" . strtolower($school) . "_mini.png";
+							echo "' style='width:419px;'></a>";
+							include("rosters/{$school}_{$gender}.php");  ?>
+						</div>
+						<div class='girls'>
+							<?php $school = 'ISKL'; $gender = 'girls';
+							echo "<a rel='leanModal' href='#{$school}_{$gender}'><img src='";
+							if(file_exists("photos/{$school}_{$gender}.jpg")) echo "photos/{$school}_{$gender}.jpg";
+							else echo "../img/team_placeholder/" . strtolower($school) . "_mini.png";
+							echo "' style='width:419px;'></a>";
+							include("rosters/{$school}_{$gender}.php");  ?>
+						</div>						
 					</div>
 					
 					<!-- JIS -->	
 					<div id="jis" class="content" style="">
 						<div style="width:100%; height:60px; clear:both">
-							<img src="../img/blank.gif" style='background:url(../img/sprite_combined_compressed.png) 0 -250px;' class="team_tab_sprite">
+							<img src="../img/blank.gif" id='jis_50px' class="team_tab_sprite">
 							<h2 class="school_title">Jakarta International School</h2>
 						</div>
+						<div class='boys'>
+							<?php $school = 'JIS'; $gender = 'boys';
+							echo "<a rel='leanModal' href='#{$school}_{$gender}'><img src='";
+							if(file_exists("photos/{$school}_{$gender}.jpg")) echo "photos/{$school}_{$gender}.jpg";
+							else echo "../img/team_placeholder/" . strtolower($school) . "_mini.png";
+							echo "' style='width:419px;'></a>";
+							include("rosters/{$school}_{$gender}.php");  ?>
+						</div>
+						<div class='girls'>
+							<?php $school = 'JIS'; $gender = 'girls';
+							echo "<a rel='leanModal' href='#{$school}_{$gender}'><img src='";
+							if(file_exists("photos/{$school}_{$gender}.jpg")) echo "photos/{$school}_{$gender}.jpg";
+							else echo "../img/team_placeholder/" . strtolower($school) . "_mini.png";
+							echo "' style='width:419px;'></a>";
+							include("rosters/{$school}_{$gender}.php");  ?>
+						</div>		
 					</div>
-				
-				
-		
 			</div>
-
 		</div>
 		
-		<div id="TAS_boys" style='width: 700px;display:none;'>
-			<img src='../img/team_placeholder/tas_mini.png' style='width:700px;border-radius: 5px;-moz-border-radius: 5px;-webkit-border-radius: 5px;background-color: rgb(224, 224, 224);'>
-		</div>
+		<?php 
+			$ids = array("TAS_boys","TAS_girls", "SAS_boys","SAS_girls", "ISB_boys","ISB_girls", "ISM_boys","ISM_girls", "ISKL_boys","ISKL_girls","JIS_boys","JIS_girls");
+			$placeholder_img = array("tas_mini.png","tas_mini.png", "sas_mini.png","sas_mini.png", "isb_mini.png","isb_mini.png", "ism_mini.png","ism_mini.png", "iskl_mini.png","iskl_mini.png","jis_mini.png","jis_mini.png");
+			$team_img = array("TAS_boys.jpg","TAS_girls.jpg", "SAS_boys.jpg","SAS_girls.jpg", "ISB_boys.jpg","ISB_girls.jpg", "ISM_boys.jpg","ISM_girls.jpg", "ISKL_boys.jpg","ISKL_girls.jpg","JIS_boys.jpg","JIS_girls.jpg");
+			
+			for ($x = 0; $x < 12; $x++) {
+				 // If team photo exists in photo/, use that instead of the placeholder
+				if(file_exists("photos/{$team_img[$x]}")) echo "<div id='{$ids[$x]}' class='modal'><img src='photos/{$team_img[$x]}'></div>\n";
+				else echo "<div id='{$ids[$x]}' class='modal'><img src='../img/team_placeholder/{$placeholder_img[$x]}'></div>\n";
+			}
+			
+		?>		
 		<script src="../js/prefixfree.min.js"></script>
 	</body>
 </html>
