@@ -3,13 +3,14 @@
 <html lang="en-US" style="height: 100%;">
 	<head>
 		<title>Game Template - IASAS Softball 2013</title>
-		<meta http-equiv="content-type" content="text/html; charset=us-ascii">
+		<meta charset="UTF-8">
 		<link rel="shortcut icon" href="../img/favicon.png"/>
 		<link rel="stylesheet" type="text/css" href="../style.css">
 		<link rel="stylesheet" type="text/css" href="./style_game.css">
 		<link rel="stylesheet" type="text/css" href="./style_scores.css">
 
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
+		<script async src="../js/ga.js"></script>
 		
 		<script>
 			$(document).ready(function(){
@@ -30,7 +31,6 @@
 	</head>
 
 	<body>		
-		<?php include_once("../js/analytics.php") ?>
 		<?php include ("../header.php"); ?>
 		<?php include ("./functions.php"); ?>
 
@@ -97,5 +97,6 @@
 
 			
 		</div>
+		<script src="../js/prefixfree.min.js"></script>
 	</body>
 </html>

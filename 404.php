@@ -1,13 +1,19 @@
 <!DOCTYPE html>
 
+<?php
+	$http_host = $_SERVER['HTTP_HOST'];
+	if($http_host == "localhost") $base_url = '/'; 
+	if($http_host == "iasas.xyk2maker.com") $base_url = '/'; 
+	if($http_host == "blogs.tas.edu.tw") $base_url = '/softball/'; 
+?>
+
 <html lang="en-US" style="height: 100%;">
 	<head>
 		<title>404 - IASAS Softball 2013</title>
-		<meta http-equiv="content-type" content="text/html; charset=us-ascii">
-		<link rel="shortcut icon" href="./img/favicon.png"/>
-
-		<link rel="stylesheet" type="text/css" href="./style.css">
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
+		<meta charset="UTF-8">
+		<link rel="shortcut icon" href="<?php echo $base_url;?>img/favicon.png"/>
+		<link rel="stylesheet" type="text/css" href="<?php echo $base_url;?>style.css">
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
 	</head>
 
 	<body>

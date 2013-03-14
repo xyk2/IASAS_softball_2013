@@ -1,0 +1,13 @@
+#page_title {
+	font-family: leagueGothicRegular;
+	color: rgba(0, 0, 0, 0.47);
+	font-size: 40px;
+	margin-left: 40px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+iframe {
+	margin-top:15px;
+	margin-left:136px;
+}

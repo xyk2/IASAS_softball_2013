@@ -1,15 +1,15 @@
 <!DOCTYPE html>
-
 <html lang="en-US" style="height: 100%;">
 	<head>
 		<title>Standings - IASAS Softball 2013</title>
-		<meta http-equiv="content-type" content="text/html; charset=us-ascii">
+		<meta charset="UTF-8">
 		<link rel="shortcut icon" href="../img/favicon.png"/>
 		<link rel="stylesheet" type="text/css" href="../style.css">
 		<link rel="stylesheet" type="text/css" href="./standings_style.css">
 
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
-		<script src="../js/tabify/jquery.tabify.js" type="text/javascript" charset="utf-8"></script>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
+		<script src="../js/tabify/jquery.tabify.js"></script>
+		<script async src="../js/ga.js"></script>
 		<script type="text/javascript">				
 			$(document).ready(function () {
 				$('#menu').tabify();
@@ -34,14 +34,13 @@
 			.menu li.active a { font-family: Arial;
 							background: rgba(255, 255, 255, 0.44);
 }
-			.content { float: left; 
+			.table { float: left; 
 						width: 920px; 
 			}
 		</style>
 	</head>
 
 	<body>		
-		<?php include_once("../js/analytics.php") ?>
 		<?php include ("../header.php"); ?>
 
 		<div id='container'>
@@ -57,7 +56,7 @@
 						<li><a href="#girls">Girls</a></li>
 					</ul>
 					<!-- BOYS -->
-					<div id="boys" class="content">
+					<div id="boys" class="table">
 						<div style='height: 358px;width: 920px;margin-left: auto;margin-right: auto;background: rgba(255, 255, 255, 0.34);'>
 							<div style="width: 100px;float: left;font-family: leagueGothicRegular;color: #444;font-size: 26px;" id="teams">
 								<div class="column_data_one" style='font-size: 20px;'>Boys</div>
@@ -163,7 +162,7 @@
 					</div>
 					
 					<!-- GIRLS -->
-					<div id="girls" class="content">
+					<div id="girls" class="table">
 						<div style='height: 358px;width: 920px;margin-left: auto;margin-right: auto;background: rgba(255, 255, 255, 0.34);'>
 							<div style="width: 100px;float: left;font-family: leagueGothicRegular;color: #444;font-size: 26px;" id="teams">
 								<div class="column_data_one"  style='font-size: 20px;'>Girls</div>
@@ -276,5 +275,6 @@
 			</div>
 
 		</div>
+		<script src="../js/prefixfree.min.js"></script>
 	</body>
 </html>

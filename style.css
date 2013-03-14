@@ -23,7 +23,7 @@ body {
 	height: 100%;
 	margin: 0 auto;
 	margin-top: 5px;
-	-moz-box-shadow: 0 0 30px 3px black;
+	box-shadow: 0 0 30px 3px black;
 	-webkit-box-shadow: 0 0 30px 3px black;
 	box-shadow: 0 0 30px 3px black;
 	clear:both;
@@ -33,27 +33,101 @@ body {
 	width: 1000px;
 	margin: 0 auto;
 }
-.headers {
+
+#internal_title {
+	width:430px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#title_link {
+	text-decoration:none;
+}
+#title_link img {
+	float: left;
+	height: 110px;
+}
+#title_link h1 {
+	font-family: leagueGothic;
+	font-size: 90px;
+	padding-top: 18px;
+	padding-left: 120px;
+	color: #ACB9B5;
+	white-space:nowrap;
+}
+#title_link span {
+	font-size: 70px;
+	color: #D1DFDA;
+}
+
+#navigation {
+	width:1000px;
+	height:48px;
+	clear:both;
+}
+
+#navigation ul {
+	height:48px;
+}
+
+#navigation li {
     width: 12.5%;
     height: 48px;
     text-align: center;
     font-family: leagueGothicRegular;
     line-height: 50px;
-    font-size: 25px;
+    font-size: 26px;
     border-right: 1px solid #777;
+	border-bottom: 3px solid;
     float: left;
     background-color:rgba(170, 170, 170, 0.31);
     box-sizing: border-box;
-    -moz-box-sizing:border-box;
-
+    -moz-box-sizing: border-box;
 }
 
-.headers:hover {
-    background-color: rgba(140, 140, 140, 0.3);
+#navigation li:last-child {
+	border-right:none;
 }
 
-.headers a {
+#navigation li:hover {
+	background-color: rgba(140, 140, 140, 0.3);
+}
+
+#navigation li a {
 	display: block; 
 	text-decoration: none; 
 	color: rgba(0, 0, 0, 0.66);
 }
+
+#subpage_h2 {
+	font-family: leagueGothicRegular;
+	color: rgba(0, 0, 0, 0.47);
+	font-size: 40px;
+	margin-left: 40px;
+	margin-top: 10px;
+}
+
+
+#tas_50px {background: url(./img/sprite_combined_compressed.png) 0 0;width:50px;height:50px;}
+#sas_50px {background: url(./img/sprite_combined_compressed.png) 0 -50px;width:50px;height:50px;}
+#isb_50px {background: url(./img/sprite_combined_compressed.png) 0 -100px;width:50px;height:50px;}
+#ism_50px {background: url(./img/sprite_combined_compressed.png) 0 -150px;width:50px;height:50px;}
+#iskl_50px {background: url(./img/sprite_combined_compressed.png) 0 -200px;width:50px;height:50px;}
+#jis_50px {background: url(./img/sprite_combined_compressed.png) 0 -250px;width:50px;height:50px;}
+#champ_50px {background: url(./img/sprite_combined_compressed.png) 0 -300px;width:50px;height:50px;}
+
+#tas_22px {background: url(./img/sprite_combined_compressed.png) -50px 0;width:22px;height:22px;}
+#sas_22px {background: url(./img/sprite_combined_compressed.png) -50px -22px;width:22px;height:22px;}
+#isb_22px {background: url(./img/sprite_combined_compressed.png) -50px -44px;width:22px;height:22px;}
+#ism_22px {background: url(./img/sprite_combined_compressed.png) -50px -66px;width:22px;height:22px;}
+#iskl_22px {background: url(./img/sprite_combined_compressed.png) -50px -88px;width:22px;height:22px;}
+#jis_22px {background: url(./img/sprite_combined_compressed.png) -50px -110px;width:22px;height:22px;}
+#champ_22px {background: url(./img/sprite_combined_compressed.png) -50px -132px;width:22px;height:22px;}
+
+#tas_19px {background: url(./img/sprite_combined_compressed.png) -72px 0;width:19px;height:19px;}
+#sas_19px {background: url(./img/sprite_combined_compressed.png) -72px -19px;width:19px;height:19px;}
+#isb_19px {background: url(./img/sprite_combined_compressed.png) -72px -38px;width:19px;height:19px;}
+#ism_19px {background: url(./img/sprite_combined_compressed.png) -72px -57px;width:19px;height:19px;}
+#iskl_19px {background: url(./img/sprite_combined_compressed.png) -72px -76px;width:19px;height:19px;}
+#jis_19px {background: url(./img/sprite_combined_compressed.png) -72px -95px;width:19px;height:19px;}
+#champ_19px {background: url(./img/sprite_combined_compressed.png) -72px -114px;width:19px;height:19px;}

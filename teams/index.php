@@ -1,15 +1,15 @@
 <!DOCTYPE html>
-
 <html lang="en-US" style="height: 100%;">
 	<head>
 		<title>Teams - IASAS Softball 2013</title>
-		<meta http-equiv="content-type" content="text/html; charset=us-ascii">
+		<meta charset="UTF-8">
 		<link rel="shortcut icon" href="../img/favicon.png"/>
 		<link rel="stylesheet" type="text/css" href="../style.css">
 		<link rel="stylesheet" type="text/css" href="./teams_style.css">
 
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
-		<script src="../js/tabify/jquery.tabify.js" type="text/javascript" charset="utf-8"></script>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
+		<script src="../js/tabify/jquery.tabify.js"></script>
+		<script async src="../js/ga.js"></script>
 		<script type="text/javascript">				
 			$(document).ready(function () {
 				$('#menu').tabify();
@@ -51,7 +51,6 @@
 	</head>
 
 	<body>		
-		<?php include_once("../js/analytics.php") ?>
 		<?php include ("../header.php"); ?>
 
 		<div id='container' style='min-height: 724px;'>
@@ -77,13 +76,14 @@
 							<h2 class="school_title">Taipei American School</h2>
 						</div>
 						<div class='boys'>
-							<a rel='leanModal' href='#TAS_boys'><img src='photos/TAS_boys.jpg' style='width:419px;'></a>
+							<!-- <a rel='leanModal' href='#TAS_boys'><img src='photos/TAS_boys.jpg' style='width:419px;'></a> -->
+							<a rel='leanModal' href='#TAS_boys'><img src='../img/team_placeholder/tas_mini.png' style='width:419px;'></a>
 							<?php include("rosters/TAS_boys.php"); ?>
 						</div>
-						
 						<div class='girls'>
-							<a rel='leanModal' href='#TAS_boys'><img src='photos/TAS_boys.jpg' style='width:419px;'></a>
-							<?php include("rosters/TAS_boys.php"); ?>
+							<!-- <a rel='leanModal' href='#TAS_boys'><img src='photos/TAS_boys.jpg' style='width:419px;'></a> -->
+							<a rel='leanModal' href='#TAS_boys'><img src='../img/team_placeholder/tas_mini.png' style='width:419px;'></a>
+							<?php include("rosters/TAS_girls.php"); ?>
 						</div>
 					</div>
 					
@@ -134,7 +134,8 @@
 		</div>
 		
 		<div id="TAS_boys" style='width: 700px;display:none;'>
-			<img src='./photos/TAS_boys.jpg' style='width:700px;border-radius: 5px;-moz-border-radius: 5px;-webkit-border-radius: 5px;'>
+			<img src='../img/team_placeholder/tas_mini.png' style='width:700px;border-radius: 5px;-moz-border-radius: 5px;-webkit-border-radius: 5px;background-color: rgb(224, 224, 224);'>
 		</div>
+		<script src="../js/prefixfree.min.js"></script>
 	</body>
 </html>
