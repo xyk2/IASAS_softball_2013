@@ -14,7 +14,7 @@ Changes in version 2.0.2 (2008-03-14)
 
 General
 * Added support for the new metadata plugin
-* Added support for jQuery 1.2.3
+* Added support for jquery 1.2.3
 * Added support for decimal numbers and negative and positive digits
 * Updated documenation and website with new examples
 * Removed packed version.
@@ -27,8 +27,8 @@ Changes in version 2.0.1 (2007-09-17)
 -------------------------------------
 
 General
-* Removed the need for Dimensions plugin when using the pagnation plugin thanks to offset being included in the jQuery 1.2 core.
-* Added support for jQuery 1.2
+* Removed the need for Dimensions plugin when using the pagnation plugin thanks to offset being included in the jquery 1.2 core.
+* Added support for jquery 1.2
 * Added new Minified version of tablesorter
 * Updated documenation and website with new examples
 

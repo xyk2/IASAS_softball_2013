@@ -3,7 +3,7 @@ if ($.browser.msie == true) document.execCommand('BackgroundImageCache', false, 
 ChiliBook.recipeFolder     = "js/chili/";
 ChiliBook.stylesheetFolder = "js/chili/"
 
-jQuery.fn.antispam = function() {
+jquery.fn.antispam = function() {
   return this.each(function(){
 	var email = $(this).text().toLowerCase().replace(/\sdot/g,'.').replace(/\sat/g,'@').replace(/\s+/g,'');
 	var URI = "mailto:" + email;

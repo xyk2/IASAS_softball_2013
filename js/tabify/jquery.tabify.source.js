@@ -2,7 +2,7 @@
 *	@name							Tabify
 *	@descripton						Tabbed content with ease
 *	@version						1.4
-*	@requires						Jquery 1.3.2
+*	@requires						jquery 1.3.2
 *
 *	@author							Jan Jarfalk
 *	@author-email					jan.jarfalk@unwrongest.com
@@ -70,4 +70,4 @@
             }); 
         } 
     }); 
-})(jQuery);
+})(jquery);

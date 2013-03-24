@@ -24,7 +24,7 @@ function ft_hook_add_css() {}
  * Add javascript to run on document.ready.
  *
  * Use this hook to add any javascript that should be run whenever the document is ready.
- * This is useful for activating jQuery plugins and running other unobtrusive javascript.
+ * This is useful for activating jquery plugins and running other unobtrusive javascript.
  *
  * @return String of javascript (do not include script tags).
  */

@@ -13,7 +13,7 @@
 		<meta charset="UTF-8">
 		<link rel="shortcut icon" href="<?php echo $base_url;?>img/favicon.png"/>
 		<link rel="stylesheet" type="text/css" href="<?php echo $base_url;?>style.css">
-		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 	</head>
 
 	<body>

@@ -181,4 +181,4 @@
         tablesorterPager: $.tablesorterPager.construct
 	});
 	
-})(jQuery);				
+})(jquery);				

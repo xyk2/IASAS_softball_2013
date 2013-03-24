@@ -2,7 +2,7 @@
  * 
  * TableSorter 2.0 - Client-side table sorting with ease!
  * Version 2.0.3
- * @requires jQuery v1.2.3
+ * @requires jquery v1.2.3
  * 
  * Copyright (c) 2007 Christian Bach
  * Examples and docs at: http://tablesorter.com
@@ -76,7 +76,7 @@
  *
  * @option Boolean debug (optional) 			Boolean flag indicating if tablesorter should display debuging information usefull for development.
  *
- * @type jQuery
+ * @type jquery
  *
  * @name tablesorter
  * 
@@ -752,7 +752,7 @@
 			return /^(https?|ftp|file):\/\/$/.test(s);
 		},
 		format: function(s) {
-			return jQuery.trim(s.replace(new RegExp(/(https?|ftp|file):\/\//),''));
+			return jquery.trim(s.replace(new RegExp(/(https?|ftp|file):\/\//),''));
 		},
 		type: "text"
 	});
@@ -849,4 +849,4 @@
 			if(table.config.debug) { $.tablesorter.benchmark("Applying Zebra widget", time); }
 		}
 	});	
-})(jQuery);
+})(jquery);

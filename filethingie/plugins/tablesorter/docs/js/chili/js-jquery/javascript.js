@@ -1,6 +1,6 @@
 /*
 ===============================================================================
-Chili is the jQuery code highlighter plugin
+Chili is the jquery code highlighter plugin
 ...............................................................................
                                                Copyright 2007 / Andrea Ercolino
 -------------------------------------------------------------------------------
@@ -33,7 +33,7 @@ WEBSITE: http://noteslog.com/chili/
 			, replacement: '<span class="jquery" title="$0"><span class="ajax">$$</span></span>'
 		}
 		, "jquery object"     : { 
-			  exp        : /jQuery|\$(?=\W)/
+			  exp        : /jquery|\$(?=\W)/
 			, replacement: '<span class="jquery" title="$0"><span class="object">$$</span></span>'
 		}
 		,"jquery core"        : {

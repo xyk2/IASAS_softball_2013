@@ -8,7 +8,7 @@
 		<link rel="stylesheet" type="text/css" href="../style.css">
 		<link rel="stylesheet" type="text/css" href="./schedule_style.css">
 
-		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 		<script src="../js/tabify/jquery.tabify.js"></script>
 		<script src="../js/worldclock.js"></script>
 		<script async src="../js/ga.js"></script>
@@ -50,12 +50,12 @@
 							<table border="0" class='schedule_table'>
 								<tbody>
 									<?php 
-									insert_row_all("9:15", "AM", "JIS", "ISM", "", "");
-									insert_row_all("11:00", "AM", "ISKL", "TAS", "", ""); 
-									insert_row_all("12:45", "PM", "SAS", "ISB", "", "");
-									insert_row_all("14:45", "PM", "ISM", "ISKL", "", "");
-									insert_row_all("16:30", "PM", "ISB", "JIS", "", "");
-									insert_row_all("18:15", "PM", "TAS", "SAS", "", ""); 
+									insert_row_all("8:30", "AM", "JIS", "ISM", "", "");
+									insert_row_all("10:15", "AM", "ISKL", "TAS", "", ""); 
+									insert_row_all("12:00", "PM", "SAS", "ISB", "", "");
+									insert_row_all("2:00", "PM", "ISM", "ISKL", "", "");
+									insert_row_all("3:45", "PM", "ISB", "JIS", "", "");
+									insert_row_all("5:30", "PM", "TAS", "SAS", "", ""); 
 									?>
 								</tbody>
 							</table>
@@ -63,12 +63,12 @@
 							<table border="0" class='schedule_table'>
 								<tbody>
 									<?php 
-									insert_row_all("8:30", "AM", "ISM", "ISB", "", "");
-									insert_row_all("10:15", "AM", "ISKL", "SAS", "", ""); 
-									insert_row_all("12:00", "PM", "JIS", "TAS", "", "");
-									insert_row_all("14:30", "PM", "ISB", "ISKL", "", "");
-									insert_row_all("16:15", "PM", "TAS", "ISM", "", "");
-									insert_row_all("18:00", "PM", "SAS", "JIS", "", "");  
+									insert_row_all("8:00", "AM", "ISM", "ISB", "", "");
+									insert_row_all("9:45", "AM", "ISKL", "SAS", "", ""); 
+									insert_row_all("11:30", "AM", "JIS", "TAS", "", "");
+									insert_row_all("2:00", "PM", "ISB", "ISKL", "", "");
+									insert_row_all("3:45", "PM", "TAS", "ISM", "", "");
+									insert_row_all("5:30", "PM", "SAS", "JIS", "", "");  
 									?>
 								</tbody>
 							</table>
@@ -76,9 +76,9 @@
 							<table border="0" class='schedule_table'>
 								<tbody>
 									<?php 
-									insert_row_all("8:15", "AM", "ISB", "TAS", "", "");
-									insert_row_all("10:00", "AM", "ISM", "SAS", "", "");
-									insert_row_all("11:45", "AM", "JIS", "ISKL", "", "");  
+									insert_row_all("8:00", "AM", "ISB", "TAS", "", "");
+									insert_row_all("9:45", "AM", "ISM", "SAS", "", "");
+									insert_row_all("11:30", "AM", "JIS", "ISKL", "", "");  
 									?>
 								</tbody>
 							</table>
@@ -86,8 +86,8 @@
 							<table border="0" class='schedule_table'>
 								<tbody>
 									<?php 
-									insert_championship("15:00", "PM", "Consolation", "", "");
-									insert_championship("17:00", "PM", "Final", "", "");
+									insert_championship("2:30", "PM", "Consolation", "", "");
+									insert_championship("6:00", "PM", "Final", "", "");
 									?>
 								</tbody>
 							</table>
@@ -103,9 +103,9 @@
 									insert_row_all("8:30", "AM", "ISKL", "SAS", "", "");
 									insert_row_all("10:15", "AM", "JIS", "ISB", "", ""); 
 									insert_row_all("12:00", "PM", "ISM", "TAS", "", "");
-									insert_row_all("14:00", "PM", "SAS", "JIS", "", "");
-									insert_row_all("15:45", "PM", "TAS", "ISKL", "", "");
-									insert_row_all("17:30", "PM", "ISB", "ISM", "", ""); 
+									insert_row_all("2:00", "PM", "SAS", "JIS", "", "");
+									insert_row_all("3:45", "PM", "TAS", "ISKL", "", "");
+									insert_row_all("5:30", "PM", "ISB", "ISM", "", ""); 
 									?>
 								</tbody>
 							</table>
@@ -116,9 +116,9 @@
 									insert_row_all("8:00", "AM", "TAS", "SAS", "", "");
 									insert_row_all("9:45", "AM", "ISM", "JIS", "", ""); 
 									insert_row_all("11:30", "AM", "ISKL", "ISB", "", "");
-									insert_row_all("14:00", "PM", "SAS", "ISM", "", "");
-									insert_row_all("15:45", "PM", "JIS", "ISKL", "", "");
-									insert_row_all("17:30", "PM", "ISB", "TAS", "", "");  
+									insert_row_all("2:00", "PM", "SAS", "ISM", "", "");
+									insert_row_all("3:45", "PM", "JIS", "ISKL", "", "");
+									insert_row_all("5:30", "PM", "ISB", "TAS", "", "");  
 									?>
 								</tbody>
 							</table>
@@ -136,8 +136,8 @@
 							<table border="0" class='schedule_table'>
 								<tbody>
 									<?php 
-									insert_championship("15:00", "PM", "Consolation", "", "");
-									insert_championship("17:00", "PM", "Final", "", "");
+									insert_championship("2:30", "PM", "Consolation", "", "");
+									insert_championship("4:15", "PM", "Final", "", "");
 									?>
 								</tbody>
 							</table>
@@ -155,19 +155,19 @@
 							<p id="boys_and_girls">Boys</p>
 							<p class="date" style='padding-top:0;'>Thursday, April 11</p>
 							<?php start_table();
-							insert_row("11:00", "AM", "Away", "ISKL", "", "");
-							insert_row("18:15", "PM", "Home", "SAS", "", ""); 
+							insert_row("10:15", "AM", "Away", "ISKL", "", "");
+							insert_row("5:30", "PM", "Home", "SAS", "", ""); 
 							end_table();?>
 							
 							<p class="date">Friday, April 12</p>
 							<?php start_table();
-							insert_row("12:00", "PM", "Away", "JIS", "", "");
-							insert_row("16:15", "PM", "Home", "ISM", "", ""); 
+							insert_row("11:30", "AM", "Away", "JIS", "", "");
+							insert_row("3:45", "PM", "Home", "ISM", "", ""); 
 							end_table();?>
 
 							<p class="date">Saturday, April 13</p>
 							<?php start_table();
-							insert_row("8:15", "AM", "Away", "ISB", "", ""); 
+							insert_row("8:00", "AM", "Away", "ISB", "", ""); 
 							end_table();?>
 						</div>
 						
@@ -176,19 +176,19 @@
 							<p id="boys_and_girls">Girls</p>
 							<p class="date" style='padding-top:0;'>&nbsp</p>
 							<?php start_table();
-							insert_row("12:00", "PM", "Away", "ISM", "Preview", "#");
-							insert_row("15:45", "PM", "Home", "ISKL", "Preview", "#"); 
+							insert_row("12:00", "PM", "Away", "ISM", "", "");
+							insert_row("3:45", "PM", "Home", "ISKL", "", ""); 
 							end_table();?>
 							
 							<p class="date">&nbsp</p>
 							<?php start_table();
-							insert_row("8:00", "AM", "Home", "SAS", "Preview", "#");
-							insert_row("17:30", "PM", "Away", "ISB", "Preview", "#"); 
+							insert_row("8:00", "AM", "Home", "SAS", "", "");
+							insert_row("5:30", "PM", "Away", "ISB", "", ""); 
 							end_table();?>
 							
 							<p class="date">&nbsp</p>
 							<?php start_table();
-							insert_row("9:45", "AM", "Home", "JIS", "Preview", "#"); 
+							insert_row("9:45", "AM", "Home", "JIS", "", ""); 
 							end_table();?>
 						</div>
 					</div>
@@ -203,19 +203,19 @@
 							<p id="boys_and_girls">Boys</p>
 							<p class="date" style='padding-top:0;'>Thursday, April 11</p>
 							<?php start_table();
-							insert_row("12:45", "PM", "Home", "ISB", "", "");
-							insert_row("18:15", "PM", "Away", "TAS", "", ""); 
+							insert_row("12:00", "PM", "Home", "ISB", "", "");
+							insert_row("5:30", "PM", "Away", "TAS", "", ""); 
 							end_table();?>
 							
 							<p class="date">Friday, April 12</p>
 							<?php start_table();
-							insert_row("10:15", "AM", "Away", "ISKL", "", "");
-							insert_row("18:00", "PM", "Home", "JIS", "", ""); 
+							insert_row("9:45", "AM", "Away", "ISKL", "", "");
+							insert_row("5:30", "PM", "Home", "JIS", "", ""); 
 							end_table();?>
 
 							<p class="date">Saturday, April 13</p>
 							<?php start_table();
-							insert_row("10:00", "AM", "Away", "ISM", "", ""); 
+							insert_row("9:45", "AM", "Away", "ISM", "", ""); 
 							end_table();?>
 						</div>
 						
@@ -224,19 +224,19 @@
 							<p id="boys_and_girls">Girls</p>
 							<p class="date" style='padding-top:0;'>&nbsp</p>
 							<?php start_table();
-							insert_row("8:30", "AM", "Away", "ISKL", "Preview", "#");
-							insert_row("14:00", "PM", "Home", "JIS", "Preview", "#"); 
+							insert_row("8:30", "AM", "Away", "ISKL", "", "");
+							insert_row("2:00", "PM", "Home", "JIS", "", ""); 
 							end_table();?>
 							
 							<p class="date">&nbsp</p>
 							<?php start_table();
-							insert_row("8:00", "AM", "Away", "TAS", "Preview", "#");
-							insert_row("14:00", "PM", "Home", "ISM", "Preview", "#"); 
+							insert_row("8:00", "AM", "Away", "TAS", "", "");
+							insert_row("2:00", "PM", "Home", "ISM", "", ""); 
 							end_table();?>
 							
 							<p class="date">&nbsp</p>
 							<?php start_table();
-							insert_row("11:30", "AM", "Home", "ISB", "Preview", "#"); 
+							insert_row("11:30", "AM", "Home", "ISB", "", ""); 
 							end_table();?>
 						</div>
 					</div>
@@ -251,19 +251,19 @@
 							<p id="boys_and_girls">Boys</p>
 							<p class="date" style='padding-top:0;'>Thursday, April 11</p>
 							<?php start_table();
-							insert_row("12:45", "PM", "Away", "SAS", "", "");
-							insert_row("16:30", "PM", "Home", "JIS", "", ""); 
+							insert_row("12:00", "PM", "Away", "SAS", "", "");
+							insert_row("3:45", "PM", "Home", "JIS", "", ""); 
 							end_table();?>
 							
 							<p class="date">Friday, April 12</p>
 							<?php start_table();
-							insert_row("8:30", "AM", "Away", "ISM", "", "");
-							insert_row("14:30", "PM", "Home", "ISKL", "", ""); 
+							insert_row("8:00", "AM", "Away", "ISM", "", "");
+							insert_row("14:00", "PM", "Home", "ISKL", "", ""); 
 							end_table();?>
 
 							<p class="date">Saturday, April 13</p>
 							<?php start_table();
-							insert_row("8:15", "AM", "Home", "TAS", "", ""); 
+							insert_row("8:00", "AM", "Home", "TAS", "", ""); 
 							end_table();?>
 						</div>
 						
@@ -272,19 +272,19 @@
 							<p id="boys_and_girls">Girls</p>
 							<p class="date" style='padding-top:0;'>&nbsp</p>
 							<?php start_table();
-							insert_row("10:15", "AM", "Away", "JIS", "Preview", "#");
-							insert_row("17:30", "PM", "Home", "ISM", "Preview", "#"); 
+							insert_row("10:15", "AM", "Away", "JIS", "", "");
+							insert_row("17:30", "PM", "Home", "ISM", "", ""); 
 							end_table();?>
 							
 							<p class="date">&nbsp</p>
 							<?php start_table();
-							insert_row("11:30", "AM", "Away", "ISKL", "Preview", "#");
-							insert_row("17:30", "PM", "Home", "TAS", "Preview", "#"); 
+							insert_row("11:30", "AM", "Away", "ISKL", "", "");
+							insert_row("17:30", "PM", "Home", "TAS", "", ""); 
 							end_table();?>
 							
 							<p class="date">&nbsp</p>
 							<?php start_table();
-							insert_row("11:30", "AM", "Away", "SAS", "Preview", "#"); 
+							insert_row("11:30", "AM", "Away", "SAS", "", ""); 
 							end_table();?>
 						</div>
 					</div>
@@ -299,19 +299,19 @@
 							<p id="boys_and_girls">Boys</p>
 							<p class="date" style='padding-top:0;'>Thursday, April 11</p>
 							<?php start_table();
-							insert_row("9:15", "AM", "Away", "JIS", "", "");
-							insert_row("14:45", "PM", "Home", "ISKL", "", ""); 
+							insert_row("8:30", "AM", "Away", "JIS", "", "");
+							insert_row("2:00", "PM", "Home", "ISKL", "", ""); 
 							end_table();?>
 							
 							<p class="date">Friday, April 12</p>
 							<?php start_table();
-							insert_row("8:30", "AM", "Home", "ISB", "", "");
-							insert_row("16:15", "PM", "Away", "TAS", "", ""); 
+							insert_row("8:00", "AM", "Home", "ISB", "", "");
+							insert_row("3:45", "PM", "Away", "TAS", "", ""); 
 							end_table();?>
 
 							<p class="date">Saturday, April 13</p>
 							<?php start_table();
-							insert_row("10:00", "AM", "Home", "SAS", "", ""); 
+							insert_row("9:45", "AM", "Home", "SAS", "", ""); 
 							end_table();?>
 						</div>
 						
@@ -320,19 +320,19 @@
 							<p id="boys_and_girls">Girls</p>
 							<p class="date" style='padding-top:0;'>&nbsp</p>
 							<?php start_table();
-							insert_row("12:00", "PM", "Home", "TAS", "Preview", "#");
-							insert_row("17:30", "PM", "Away", "ISB", "Preview", "#"); 
+							insert_row("12:00", "PM", "Home", "TAS", "", "");
+							insert_row("17:30", "PM", "Away", "ISB", "", ""); 
 							end_table();?>
 							
 							<p class="date">&nbsp</p>
 							<?php start_table();
-							insert_row("9:45", "AM", "Home", "JIS", "Preview", "#");
-							insert_row("14:00", "PM", "Away", "SAS", "Preview", "#"); 
+							insert_row("9:45", "AM", "Home", "JIS", "", "");
+							insert_row("14:00", "PM", "Away", "SAS", "", ""); 
 							end_table();?>
 							
 							<p class="date">&nbsp</p>
 							<?php start_table();
-							insert_row("8:00", "AM", "Away", "ISKL", "Preview", "#"); 
+							insert_row("8:00", "AM", "Away", "ISKL", "", ""); 
 							end_table();?>
 						</div>						
 						
@@ -348,19 +348,19 @@
 							<p id="boys_and_girls">Boys</p>
 							<p class="date" style='padding-top:0;'>Thursday, April 11</p>
 							<?php start_table();
-							insert_row("11:00", "AM", "Home", "TAS", "", "");
-							insert_row("14:45", "PM", "Away", "ISM", "", ""); 
+							insert_row("10:15", "AM", "Home", "TAS", "", "");
+							insert_row("2:00", "PM", "Away", "ISM", "", ""); 
 							end_table();?>
 							
 							<p class="date">Friday, April 12</p>
 							<?php start_table();
-							insert_row("10:15", "AM", "Home", "SAS", "", "");
-							insert_row("14:30", "PM", "Away", "ISB", "", ""); 
+							insert_row("9:45", "AM", "Home", "SAS", "", "");
+							insert_row("2:00", "PM", "Away", "ISB", "", ""); 
 							end_table();?>
 
 							<p class="date">Saturday, April 13</p>
 							<?php start_table();
-							insert_row("11:45", "AM", "Away", "JIS", "", ""); 
+							insert_row("11:30", "AM", "Away", "JIS", "", ""); 
 							end_table();?>
 						</div>
 						
@@ -369,19 +369,19 @@
 							<p id="boys_and_girls">Girls</p>
 							<p class="date" style='padding-top:0;'>&nbsp</p>
 							<?php start_table();
-							insert_row("8:30", "AM", "Home", "SAS", "Preview", "#");
-							insert_row("15:45", "PM", "Away", "TAS", "Preview", "#"); 
+							insert_row("8:30", "AM", "Home", "SAS", "", "");
+							insert_row("15:45", "PM", "Away", "TAS", "", ""); 
 							end_table();?>
 							
 							<p class="date">&nbsp</p>
 							<?php start_table();
-							insert_row("11:30", "AM", "Home", "ISB", "Preview", "#");
-							insert_row("15:45", "PM", "Away", "JIS", "Preview", "#"); 
+							insert_row("11:30", "AM", "Home", "ISB", "", "");
+							insert_row("15:45", "PM", "Away", "JIS", "", ""); 
 							end_table();?>
 							
 							<p class="date">&nbsp</p>
 							<?php start_table();
-							insert_row("8:00", "AM", "Home", "ISM", "Preview", "#"); 
+							insert_row("8:00", "AM", "Home", "ISM", "", ""); 
 							end_table();?>
 						</div>
 					</div>
@@ -396,19 +396,19 @@
 							<p id="boys_and_girls">Boys</p>
 							<p class="date" style='padding-top:0;'>Thursday, April 11</p>
 							<?php start_table();
-							insert_row("9:15", "AM", "Home", "ISM", "", "");
-							insert_row("16:30", "PM", "Away", "ISB", "", ""); 
+							insert_row("8:30", "AM", "Home", "ISM", "", "");
+							insert_row("3:45", "PM", "Away", "ISB", "", ""); 
 							end_table();?>
 							
 							<p class="date">Friday, April 12</p>
 							<?php start_table();
-							insert_row("12:00", "PM", "Home", "TAS", "", "");
-							insert_row("18:00", "PM", "Away", "SAS", "", ""); 
+							insert_row("11:30", "AM", "Home", "TAS", "", "");
+							insert_row("5:30", "PM", "Away", "SAS", "", ""); 
 							end_table();?>
 
 							<p class="date">Saturday, April 13</p>
 							<?php start_table();
-							insert_row("11:45", "AM", "Home", "ISKL", "", ""); 
+							insert_row("11:30", "AM", "Home", "ISKL", "", ""); 
 							end_table();?>
 						</div>
 						<!-- ----------- GIRLS ------------- -->
@@ -416,19 +416,19 @@
 							<p id="boys_and_girls">Girls</p>
 							<p class="date" style='padding-top:0;'>&nbsp</p>
 							<?php start_table();
-							insert_row("10:15", "AM", "Home", "ISB", "Preview", "#");
-							insert_row("14:00", "PM", "Away", "SAS", "Preview", "#"); 
+							insert_row("10:15", "AM", "Home", "ISB", "", "");
+							insert_row("14:00", "PM", "Away", "SAS", "", ""); 
 							end_table();?>
 							
 							<p class="date">&nbsp</p>
 							<?php start_table();
-							insert_row("9:45", "AM", "Away", "ISM", "Preview", "#");
-							insert_row("15:45", "PM", "Home", "ISKL", "Preview", "#"); 
+							insert_row("9:45", "AM", "Away", "ISM", "", "");
+							insert_row("15:45", "PM", "Home", "ISKL", "", ""); 
 							end_table();?>
 							
 							<p class="date">&nbsp</p>
 							<?php start_table();
-							insert_row("9:45", "AM", "Away", "TAS", "Preview", "#"); 
+							insert_row("9:45", "AM", "Away", "TAS", "", ""); 
 							end_table();?>
 						</div>
 					</div>
@@ -442,8 +442,8 @@
 						</div>
 						<img src="../img/iasas_logo_compressed.png" style="width: 200px;margin-left:345px;margin-bottom:5px;">
 						<p style="text-align:center;font-family:leagueGothicRegular;font-size:28px;color:maroon;">Saturday, April 13</p>
-						<p style="text-align: center;font-family: Arial;line-height:2.5;">Both consolation games will be played concurrently at 3PM.</p>
-						<p style="text-align: center;font-family: Arial;line-height:2.5;">Both championship games will be played concurrently at 5PM.</p>
+						<p style="text-align: center;font-family: Arial;line-height:1.5;">Both consolation games will be played concurrently at 2:30 PM.</p>
+						<p style="text-align: center;font-family: Arial;line-height:1.5;">The girls championship game will be at 4:15 PM and the boys at 6.</p>
 					</div>
 			</div>
 
