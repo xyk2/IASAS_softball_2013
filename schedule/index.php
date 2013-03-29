@@ -87,7 +87,7 @@
 								<tbody>
 									<?php 
 									insert_championship("2:30", "PM", "Consolation", "", "");
-									insert_championship("6:00", "PM", "Final", "", "");
+									insert_championship("4:15", "PM", "Final", "", "");
 									?>
 								</tbody>
 							</table>
@@ -137,7 +137,7 @@
 								<tbody>
 									<?php 
 									insert_championship("2:30", "PM", "Consolation", "", "");
-									insert_championship("4:15", "PM", "Final", "", "");
+									insert_championship("6:00", "PM", "Final", "", "");
 									?>
 								</tbody>
 							</table>
@@ -443,7 +443,7 @@
 						<img src="../img/iasas_logo_compressed.png" style="width: 200px;margin-left:345px;margin-bottom:5px;">
 						<p style="text-align:center;font-family:leagueGothicRegular;font-size:28px;color:maroon;">Saturday, April 13</p>
 						<p style="text-align: center;font-family: Arial;line-height:1.5;">Both consolation games will be played concurrently at 2:30 PM.</p>
-						<p style="text-align: center;font-family: Arial;line-height:1.5;">The girls championship game will be at 4:15 PM and the boys at 6.</p>
+						<p style="text-align: center;font-family: Arial;line-height:1.5;">The boys championship game will be at 4:15 PM on the lower field and the girls at 6.</p>
 					</div>
 			</div>
 

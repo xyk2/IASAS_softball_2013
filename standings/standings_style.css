@@ -27,3 +27,38 @@
 	border-top:1px solid #888;
 	background-color: rgba(0, 0, 0, 0.04);
 }
+
+.name {
+	float:left;
+	width:100px;
+	border-right:1px solid #CCC;
+}
+
+.wins {
+	float:left;
+	width:70px;
+	border-right:1px solid #CCC;
+}
+
+.losses {
+	float:left;
+	width:90px;
+	border-right:1px solid #CCC;
+}
+
+.points {
+	float:left;
+	width:100px;
+}
+
+.row {
+	clear:both;
+	font-family:Arial;
+	margin-left:40px;
+	height:35px;
+	line-height:35px;
+	width:400px;
+	text-align:center;
+	background:rgba(255,255,255,0.2);
+	border-bottom:1px solid #AAA;
+}

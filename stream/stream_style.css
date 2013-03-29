@@ -1,0 +1,22 @@
+#page_title {
+	font-family: leagueGothicRegular;
+	color: rgba(0, 0, 0, 0.47);
+	font-size: 40px;
+	margin-left: 40px;
+	margin-top: 10px;
+	float: left;
+	margin-bottom: 10px;
+}
+
+#ustream_container {
+	margin: 0 auto;
+	width:900px;
+}
+
+.stream_title {
+	clear:both;
+	font-family:LeagueGothicRegular;
+	font-size:30px;
+	color:maroon;
+	margin-bottom:5px;
+}

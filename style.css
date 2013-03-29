@@ -180,6 +180,37 @@ body {
 	float:right;
 }
 
+.listen_watch_follow {
+	float:left;
+	padding: 0 6px;
+	border-right: 1px solid #999;
+}
+.listen_watch_follow:last-child {
+	border:none;
+}
+.listen_watch_follow i {
+	display:inline-block;
+	width:14px;
+	height:14px;
+	background-image:url(./img/glyphicons-halflings.png);
+	float:left;
+}
+.listen_watch_follow a {
+	color:#333;
+}
+
+.p_text:hover {
+	text-decoration:underline;
+}
+
+.p_text {
+	font-weight:normal !important;
+	font-size:14px !important;
+	line-height:16px !important;
+	float:left !important;
+	margin-left:3px !important;
+}
+
 #tas_50px {background: url(./img/sprite_combined_compressed.png) 0 0;width:50px;height:50px;}
 #sas_50px {background: url(./img/sprite_combined_compressed.png) 0 -50px;width:50px;height:50px;}
 #isb_50px {background: url(./img/sprite_combined_compressed.png) 0 -100px;width:50px;height:50px;}

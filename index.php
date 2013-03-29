@@ -80,7 +80,20 @@
 			<h4 id='day_of_week'><?php if(time() < 1365699600) echo "THURSDAY"; if(time() > 1365699600 && time < 1365786000) echo "FRIDAY"; if(time() > 1365786000) echo "SATURDAY";?></h4>
 			<div id='scoreboard' style='float:left'>
 				<h5>Boys</h5>
-				<?php
+				<div class='internal_score_block' style='height:20px;'>
+					<div class='listen_watch_follow' style='margin-left:35px;'>
+						<a href='./stream/'>
+							<i style='background-position: -432px -48px;'></i>
+							<p class='p_text'>Watch</p>
+						</a>
+					</div>
+					<div class='listen_watch_follow'>
+						<a href='https://www.gamechanger.io/t/spring-2013/tas-tigers-5136c826b9efd84ef69796bc'>
+							<i style='background-image:url(./img/gc.png);'></i>
+							<p class='p_text'>Follow</p>
+						</a>
+					</div>
+				</div>				<?php
 				if(time() < 1365699600) { // if it is not Friday 1AM yet, show Thursday games
 					insert_block("JIS", "ISM", "8:30 AM", "label-info", 1365640200, "", "");
 					insert_block("ISKL", "TAS", "10:15 AM", "label-info", 1365646500, "", "");
@@ -112,6 +125,26 @@
 			
 			<div id='scoreboard' style='float:left;'>
 				<h5>Girls</h5>
+				<div class='internal_score_block' style='height:20px;'>
+					<div class='listen_watch_follow'>
+						<a href='#'>
+							<i style='background-position: -336px -24px;'></i>
+							<p class='p_text'>Listen</p>
+						</a>
+					</div>
+					<div class='listen_watch_follow'>
+						<a href='./stream/'>
+							<i style='background-position: -432px -48px;'></i>
+							<p class='p_text'>Watch</p>
+						</a>
+					</div>
+					<div class='listen_watch_follow'>
+						<a href='https://www.gamechanger.io/t/spring-2013/taipei-lady-tigers-512dd19fb695109637000001'>
+							<i style='background-image:url(./img/gc.png);'></i>
+							<p class='p_text'>Follow</p>
+						</a>
+					</div>
+				</div>
 				<?php
 				if(time() < 1365699600) { // if it is not Friday 1AM yet, show Thursday games
 					insert_block("ISKL", "SAS", "8:30 AM", "label-info", 1365640200, "", "");
