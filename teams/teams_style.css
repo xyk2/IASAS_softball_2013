@@ -28,6 +28,7 @@
 }
 
 .position {
+	display:none;
 	text-align: right;
 	width: auto;
 	font-size: 12px;
