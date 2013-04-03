@@ -1,64 +1,57 @@
-.column_data_one {
-    width: 100%;
-    border: 1px solid #888;
-    height: 50px;
-    line-height: 50px;
-    text-align: center;
-	border-top: 0;
-	background-color: rgba(0, 0, 0, 0.04);
-}
-
-.column_data_one:first-child {
-	border-top:1px solid #888;
-	background-color: rgba(0, 0, 0, 0.04);
-}
-
-.column_data{
-    width: 100%;
-    border: 1px solid #888;
-    height: 50px;
-    line-height: 50px;
-    text-align: center;
-	border-top: 0;
-	border-left:0;
-}
-
-.column_data:first-child {
-	border-top:1px solid #888;
-	background-color: rgba(0, 0, 0, 0.04);
-}
-
-.name {
+.cell_one {
+	font-size: 26px;
+	color:rgb(68,68,68);
+	background-color: rgba(0, 0, 0, 0.06);
+	border: 1px solid #888;
+	height: 50px;
+	width:99px;
+	font-family: leagueGothicRegular;
+	text-align: center;
+	line-height: 50px;
 	float:left;
-	width:100px;
-	border-right:1px solid #CCC;
+	border-right:none;
 }
-
-.wins {
+.cell {
+	font-size: 26px;
+	border: 1px solid #888;
+	height: 50px;
+	width:99px;
+	font-family: leagueGothicRegular;
+	text-align: center;
+	line-height: 50px;
 	float:left;
-	width:70px;
-	border-right:1px solid #CCC;
+	border-right:none;
+	border-top:none;
 }
-
-.losses {
-	float:left;
-	width:90px;
-	border-right:1px solid #CCC;
+.wld {
+	width:48px;
 }
-
+.column_one {
+	font-size:26px;
+	background-color: rgba(0, 0, 0, 0.06);
+	
+}
 .points {
-	float:left;
-	width:100px;
+	width:70px;
+	border-right:1px solid #888;
+}
+.fade {
+	background-color: rgba(0, 0, 0, 0.07);
 }
 
-.row {
-	clear:both;
-	font-family:Arial;
-	margin-left:40px;
-	height:35px;
-	line-height:35px;
-	width:400px;
-	text-align:center;
-	background:rgba(255,255,255,0.2);
-	border-bottom:1px solid #AAA;
+.table_header {
+	font-family: leagueGothicRegular;
+	text-align: center;
+	color: maroon;
+	font-size: 30px;
+}
+
+#subheader_info {
+	font-family: Arial;
+	font-size: 11px;
+	color: rgba(0, 0, 0, 0.73);
+	float: right;
+	margin-right: 40px;
+	margin-top: 34px;
+	text-align:right;
 }

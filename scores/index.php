@@ -13,7 +13,7 @@
 	</head>
 
 	<body>		
-		<?php include ("../header.php"); require_once('../parsecsv-0.3.2/parsecsv.lib.php');?>
+		<?php include ("../header.php"); require_once('../js/parsecsv-0.3.2/parsecsv.lib.php');?>
 
 		<div id='container' style='height:auto;overflow: hidden;min-height:700px;'>
 			<?php include ("../navigation.php"); ?>

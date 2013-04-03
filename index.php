@@ -31,7 +31,7 @@
 	<body style='height:980px;'>
 		<?php include ("./header.php"); ?>
 		
-		<div id='container' style='height:800px'>
+		<div id='container' style='height:820px'>
 			<?php include ("./navigation.php"); ?>
 
 
@@ -88,7 +88,7 @@
 						</a>
 					</div>
 					<div class='listen_watch_follow'>
-						<a href='https://www.gamechanger.io/t/spring-2013/tas-tigers-5136c826b9efd84ef69796bc'>
+						<a href='https://www.gamechanger.io/g/iasasboyssoftball13'>
 							<i style='background-image:url(./img/gc.png);'></i>
 							<p class='p_text'>Follow</p>
 						</a>
@@ -139,7 +139,7 @@
 						</a>
 					</div>
 					<div class='listen_watch_follow'>
-						<a href='https://www.gamechanger.io/t/spring-2013/taipei-lady-tigers-512dd19fb695109637000001'>
+						<a href='https://www.gamechanger.io/g/iasasgirlssoftball13'>
 							<i style='background-image:url(./img/gc.png);'></i>
 							<p class='p_text'>Follow</p>
 						</a>
@@ -172,8 +172,8 @@
 				}
 				?>		
 			</div>
-			<div style='float:left; margin-left:20px;'>
-				<a width='450' style='display:none' class="twitter-timeline" data-dnt="true" href="https://twitter.com/search?q=lang%3Aen+iasas+OR+%40tpe_tigers+OR+%40sas_ad+OR+%40isbpanthers+OR+%40iasas+OR+%23iasas" data-widget-id="312204248442077185">Tweets about "lang:en iasas OR @tpe_tigers OR @sas_ad OR @isbpanthers OR #iasas -katwolf21"</a>
+			<div style='float:left; margin-left:20px;margin-top:-15px;'>
+				<a width='450' height="320" style='display:none' class="twitter-timeline" data-dnt="true" href="https://twitter.com/search?q=lang%3Aen+iasas+OR+%40tpe_tigers+OR+%40sas_ad+OR+%40isbpanthers+OR+%40iasas+OR+%23iasas" data-widget-id="312204248442077185">Tweets about "lang:en iasas OR @tpe_tigers OR @sas_ad OR @isbpanthers OR #iasas -katwolf21"</a>
 				<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 			</div>
 		</div>
