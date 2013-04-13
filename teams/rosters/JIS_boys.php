@@ -12,8 +12,8 @@
 									</tr>
 									<tr>
 										<td class='position'>1B</td>			
-										<td class="number">9</td>
-										<td class='name'>Toby N.</td>
+										<td class="number">1</td>
+										<td class='name'>Barak W.</td>
 									</tr>
 									<tr>
 										<td class='position'>2B</td>			
@@ -57,7 +57,7 @@
 									</tr>
 									<tr>
 										<td class='position'>1B</td>			
-										<td class="number">8</td>
+										<td class="number">18</td>
 										<td class='name'>Dakota S.</td>
 									</tr>
 								</tbody>

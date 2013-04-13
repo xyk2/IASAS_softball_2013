@@ -155,9 +155,8 @@
 			</div>
 				
 				
-			</div>
-
 		</div>
+		<?php include ("../footer.php"); ?>
 		<script src="../js/prefixfree.min.js"></script>
 	</body>
 </html>

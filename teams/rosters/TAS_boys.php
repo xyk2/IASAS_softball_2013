@@ -52,12 +52,12 @@
 									</tr>
 									<tr>
 										<td class='position'>C</td>			
-										<td class="number">-</td>
+										<td class="number">15</td>
 										<td class='name'>Graham V.</td>
 									</tr>
 									<tr>
 										<td class='position'>1B</td>			
-										<td class="number">-</td>
+										<td class="number">17</td>
 										<td class='name'>Pelix K.</td>
 									</tr>
 								</tbody>

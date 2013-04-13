@@ -16,14 +16,15 @@
 	<body>		
 		<?php include ("../header.php"); ?>
 
-		<div id='container' style='min-height:830px;'>
+		<div id='container' style='height:600px;'>
 			<?php include ("../navigation.php"); ?>
 			<h2 id="page_title">
 				GameChanger
 			</h2>
 			<iframe src="http://www.gamechanger.io/group-5157410a89b4245d5b6eda1a/scoreboard?g=5&p=500a8b4dbb64e369ef00001b" width="728" height="90" scrolling="no" frameborder="0"></iframe>
 			<iframe src="http://www.gamechanger.io/group-515740c789b4245d5831028b/scoreboard?g=5&p=500a8b4dbb64e369ef00001b" width="728" height="90" scrolling="no" frameborder="0"></iframe>
-
+		</div>
+		<?php include ("../footer.php"); ?>
 
 			
 

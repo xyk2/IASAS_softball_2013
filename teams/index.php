@@ -53,7 +53,7 @@
 	<body>		
 		<?php include ("../header.php"); ?>
 
-		<div id='container' style='min-height: 724px;'>
+		<div id='container' style='min-height: 767px;'>
 			<?php include ("../navigation.php"); ?>
 			<div style="width: 1000px;">
 				<h2 style="font-family: leagueGothicRegular;color: rgba(0, 0, 0, 0.47);font-size: 40px;margin-left: 40px;margin-top: 10px;float:left;">Teams</h2>
@@ -210,9 +210,10 @@
 							include("rosters/{$school}_{$gender}.php");  ?>
 						</div>		
 					</div>
+				</div>
 			</div>
 		</div>
-		
+		<?php include ("../footer.php"); ?>
 		<?php 
 			$ids = array("TAS_boys","TAS_girls", "SAS_boys","SAS_girls", "ISB_boys","ISB_girls", "ISM_boys","ISM_girls", "ISKL_boys","ISKL_girls","JIS_boys","JIS_girls");
 			$placeholder_img = array("tas_mini.png","tas_mini.png", "sas_mini.png","sas_mini.png", "isb_mini.png","isb_mini.png", "ism_mini.png","ism_mini.png", "iskl_mini.png","iskl_mini.png","jis_mini.png","jis_mini.png");

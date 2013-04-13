@@ -19,7 +19,7 @@
 			<?php include ("../navigation.php"); ?>
 			<div style="width: 1000px;height: 55px;">
 				<h2 id="subpage_h2" style='float:left;'>Scores</h2>
-				<h3 style="font-family: Arial;font-size: 11px;color: rgba(0, 0, 0, 0.73);float: right;margin-right: 40px;margin-top: 34px;text-align:right;">Scores will be updated after games complete.</h3>
+				<h3 style="font-family: Arial;font-size: 11px;color: rgba(0, 0, 0, 0.73);float: right;margin-right: 40px;margin-top: 24px;text-align:right;">Scores will be updated after games complete.<br>For live scoring go to <a href="http://blogs.tas.edu.tw/softball/gamechanger/">GameChanger</a>.</h3>
 			</div>	
 			<?php 
 			$box_score_inning_rhe = "<div class='innings'>
@@ -42,6 +42,7 @@
 				<div style='width:412px;margin-left:auto;margin-right:auto;'>
 					<h3 style='font-family: leagueGothicRegular;color:#555;text-align: center;font-size: 26px;margin-bottom: 15px;border-bottom:1px solid #AAA;padding-bottom:5px;'>Boys</h3>
 					<?php
+						error_reporting(0);
 						$csv = new parseCSV('boys_scores.csv');
 						$skip_array = array(2,5,8,11,14,17,20,23,26,29,32,35,38,41,44); //skip these rows in the excel file (zero indexed to row 2)
 						for($game_index = 45; $game_index >= 0; $game_index-=3) {
@@ -190,6 +191,7 @@
 				</div>
 			</div>
 		</div>
+		<?php include ("../footer.php"); ?>
 		<script src="../js/prefixfree.min.js"></script>
 	</body>
 	

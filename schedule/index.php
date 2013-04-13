@@ -445,9 +445,10 @@
 						<p style="text-align: center;font-family: Arial;line-height:1.5;">Both consolation games will be played concurrently at 2:30 PM.</p>
 						<p style="text-align: center;font-family: Arial;line-height:1.5;">The boys championship game will be at 4:15 PM on the lower field and the girls at 6.</p>
 					</div>
+				</div>
 			</div>
-
 		</div>
+		<?php include ("../footer.php"); ?>
 		<script src="../js/prefixfree.min.js"></script>
 	</body>
 </html>

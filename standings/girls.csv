@@ -1,7 +1,7 @@
-,TAS,SAS,ISB,ISM,ISKL,JIS,W,L,D,POINTS
-TAS,null,-,-,-,-,-,,,,
-SAS,-,null,-,-,-,-,,,,
-ISB,-,-,null,-,-,-,,,,
-ISM,-,-,-,null,-,-,,,,
-ISKL,-,-,-,-,null,-,,,,
-JIS,-,-,-,-,-,null,,,,
+Teams,TAS,SAS,ISB,ISM,ISKL,JIS,W,L,D,POINTS
+TAS,null,L,L,L,W,W,2,3,,2
+SAS,W,null,W,W,W,W,5,,,5
+ISB,W,L,null,W,W,W,4,1,,4
+ISM,W,L,L,null,W,W,3,2,,3
+ISKL,L,L,L,L,null,W,1,4,,1
+JIS,L,L,L,L,L,null,,5,,0

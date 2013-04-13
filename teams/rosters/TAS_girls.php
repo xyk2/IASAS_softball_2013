@@ -7,7 +7,7 @@
 									</tr>
 									<tr>
 										<td class='position'>C</td>			
-										<td class="number">3</td>
+										<td class="number">7</td>
 										<td class='name'>Amy H.</td>
 									</tr>
 									<tr>
@@ -42,7 +42,7 @@
 									</tr>
 									<tr>
 										<td class='position'>RF</td>			
-										<td class="number">7</td>
+										<td class="number">3</td>
 										<td class='name'>Grace L.</td>
 									</tr>
 									<tr>

@@ -1,0 +1,168 @@
+@font-face {
+	font-family: LeagueGothic;
+	src: url("http://daxnq2i6je7zr.cloudfront.net/fonts/leaguegothic-condensed-regular-webfont.woff");
+}
+
+@font-face {
+	font-family: LeagueGothicRegular;
+	src: url("http://daxnq2i6je7zr.cloudfront.net/fonts/leaguegothic-regular-webfont.woff");
+}
+
+#header {
+	min-height:108px;
+	width:420px;
+	margin:0 auto;
+	border-bottom: 1px solid rgba(0,0,0,0.8);
+}
+
+#header h1 {
+	font-family:leagueGothic;
+	margin:0px;
+	font-size:90px;
+	font-weight:normal;
+	line-height:90px;
+	padding-top:18px;
+	color: #ACB9B5;
+}
+
+#header span {
+	font-weight:normal;
+	font-size:70px;
+	line-height:70px;
+	color: #D1DFDA;	
+}
+
+#title_img {
+	height:110px;
+	float:left;
+	margin-right:10px;
+}
+
+.container-fluid {
+	margin:0 10%;
+	padding:0;
+	background:url(http://daxnq2i6je7zr.cloudfront.net/static_img/cardboard_flat.jpg); 	
+	border-top: 1px solid rgba(0,0,0,0.8);
+	-moz-box-shadow: 0 0 20px 3px black;
+	-webkit-box-shadow: 0 0 20px 3px black;
+	box-shadow: 0 0 20px 3px black;
+}
+
+
+#main-nav li {
+	line-height:45px;
+	font-size:26px;
+	font-family:leagueGothicRegular;
+	border-bottom: 3px solid;
+	height:45px;
+	border-right: 1px solid #777;
+	background-color: rgba(170, 170, 170, 0.31);	
+}
+
+#main-nav li:hover {
+    background-color: rgba(140, 140, 140, 0.3);
+}
+
+
+#main-nav a {
+	display: block;
+	text-decoration: none;
+	color: rgba(0, 0, 0, 0.66);
+}
+
+.alpha { margin-left: 0 !important; }
+.omega { margin-right: 0 !important; }
+.auto-height { height:auto !important; }
+.zero-margin { margin:0 !important; }
+.nav_width { width: 12.5% !important; }
+#main-nav { display: block !important; }
+#small-nav { display: none !important; }
+
+
+/* Large desktop */
+@media (min-width: 1400px) { 
+	.nav_width { width: 12.5% !important; }
+	#main-nav { display: block !important; }
+	#small-nav { display: none !important; }
+	.container-fluid {
+		margin:0 auto;
+		max-width:1300px;
+	}
+ }
+ 
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) { 
+	.nav_width { width: 12.5% !important; }
+	#main-nav { display: block !important; }
+	#small-nav { display: none !important; }
+	.container-fluid {
+		margin:0 4%;
+	}
+ }
+ 
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) { 
+	.nav_width { width: auto !important; }
+	#main-nav { display: none !important; }
+	#small-nav { display: block !important; }
+	.container-fluid {
+		-webkit-border-top-left-radius: 5px;
+		-webkit-border-top-right-radius: 5px;
+		-moz-border-radius-topleft: 5px;
+		-moz-border-radius-topright: 5px;
+		border-top-left-radius: 5px;
+		border-top-right-radius: 5px;
+		margin:0 4%;
+	}
+	#title_img {
+	height:99px;
+	}
+	#header {
+		min-height:98px;
+		width:360px;
+	}
+	#header h1 {
+		font-size:80px;
+		line-height:80px;
+	}
+	#header span {
+		font-size:60px;
+		line-height:60px;
+	}
+
+ }
+ 
+/* Landscape phones and down */
+@media (max-width: 480px) { 
+	.nav_width { width: auto !important; }
+	#main-nav { display: none !important; }
+	#small-nav { display: block !important; }
+	.container-fluid {
+		-webkit-border-top-left-radius: 5px;
+		-webkit-border-top-right-radius: 5px;
+		-moz-border-radius-topleft: 5px;
+		-moz-border-radius-topright: 5px;
+		border-top-left-radius: 5px;
+		border-top-right-radius: 5px;
+		margin: 0 0;
+	}
+
+	#title_img {
+	height:70px;
+	}
+	#header {
+		min-height:60px;
+		width:295px;
+		border-bottom:none;
+		margin-top:10px;
+	}
+	#header h1 {
+		font-size:70px;
+		line-height:70px;
+		padding-top:4px;
+	}
+	#header span {
+		font-size:50px;
+		line-height:50px;
+	}
+ }
